@@ -28,28 +28,30 @@ const EventManagement = () => {
   };
 
   return (
-    <div>
-      <h1>write your story</h1>
-      <br />
-      <form onSubmit={myForm}>
-        <textarea
-          cols="10"
-          rows="5"
-          placeholder="write your story"
-          onChange={handlePost}
-        ></textarea>
-        <button type="submit" onClick={reload}>
-          post story
-        </button>
-      </form>
-
-      <br />
-      <br />
-      <p>{postState ? postState?.postState : JSON.parse(getPost)}</p>
-      <div>
-        {" "}
+    <div className="main-div">
+      <div className="width need">
+        <h1>write your story</h1>
         <br />
-        {getPost && <button onClick={deletePost}>delete post</button>}
+        <form onSubmit={myForm}>
+          <textarea
+            cols="10"
+            rows="5"
+            placeholder="write your story"
+            onChange={handlePost}
+          ></textarea>
+          <button type="submit" onClick={reload}>
+            post story
+          </button>
+        </form>
+
+        <br />
+        <br />
+        <p>{postState ? postState?.postState : JSON.parse(getPost)}</p>
+        <div>
+          {" "}
+          <br />
+          {getPost && <button onClick={deletePost}>delete post</button>}
+        </div>
       </div>
     </div>
   );
