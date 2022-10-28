@@ -1,10 +1,10 @@
 import React from "react";
-import Intractive from "./components/Intractive/Intractive";
+import EventManagement from "./components/EventManagement/EventManagement";
 
 function App() {
   return (
     <>
-      <Intractive />
+      <EventManagement />
     </>
   );
 }
