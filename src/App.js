@@ -1,10 +1,10 @@
 import React from "react";
-import EventManagement from "./components/EventManagement/EventManagement";
+import Counter from "./components/CounterApp/Conuter";
 
 function App() {
   return (
     <>
-      <EventManagement />
+      <Counter />
     </>
   );
 }
