@@ -23,4 +23,6 @@ Links [https://buy-your-ticket-by-counter-app.netlify.app/](https://buy-your-tic
 2: onclick 
 3: and condition rendering by ternary operator and comparison operators
 4:local storage and session storage (setItem,getItem,clear)
+
+
 Links [https://create-our-own-account.netlify.app/](https://create-our-own-account.netlify.app/)
