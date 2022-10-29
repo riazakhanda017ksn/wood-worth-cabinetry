@@ -1,10 +1,10 @@
 import React from "react";
-import Counter from "./components/CounterApp/Conuter";
+import FormAction from "./components/FormAction/FormAction";
 
 function App() {
   return (
     <>
-      <Counter />
+      <FormAction />
     </>
   );
 }

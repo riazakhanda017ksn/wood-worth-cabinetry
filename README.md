@@ -17,3 +17,10 @@ Links [https://share-your-mind-story.netlify.app/](https://share-your-mind-story
 3: and condition rendering by ternary operator and comparison operators
 
 Links [https://buy-your-ticket-by-counter-app.netlify.app/](https://buy-your-ticket-by-counter-app.netlify.app/)
+
+##### `making a form validation user registration app by controlling the state management`
+1:passing object in useState hook,
+2: onclick 
+3: and condition rendering by ternary operator and comparison operators
+4:local storage and session storage (setItem,getItem,clear)
+Links [https://create-our-own-account.netlify.app/](https://create-our-own-account.netlify.app/)
