@@ -1,10 +1,19 @@
 import React from "react";
-import FormAction from "./components/FormAction/FormAction";
+import DataLiftingFromChild from "./components/DataLiftingFromChild/DataLiftingFromChild";
 
 function App() {
+  const info = {
+    name: "RIaz Ahmed Akhanda",
+    email: "riazakhanda@gmail.com",
+    password: "563636ksn",
+  };
+  const dataLifting = (data) => {
+    const { name, email, password } = data;
+    console.log(name, email, password);
+  };
   return (
     <>
-      <FormAction />
+      <DataLiftingFromChild info={info} lifting={dataLifting} />
     </>
   );
 }
