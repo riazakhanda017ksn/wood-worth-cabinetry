@@ -28,6 +28,19 @@ form {
   margin: 0 auto !important;
 }
 
+.data-adding h1{
+    font-weight: 500;
+    font-size: 23px;
+    margin-bottom: 20px !important;
+    text-align: center;
+
+}
+
+.data-adding {
+  position: relative;
+  padding: 160px 0!important;
+}
+
 @media (max-width: 990px) {
   form {
     width: 90%;
@@ -83,7 +96,22 @@ button {
   margin-bottom: 19px !important;
   letter-spacing: 1px;
 }
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 19px !important;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.text-center {
+  text-align: center;
+}
 
+.text-center button {
+  position: relative;
+  top: 20vh;
+  margin-bottom: 50vh !important;
+}
 /* textarea {
   width: 100%;
   padding: 10px !important;

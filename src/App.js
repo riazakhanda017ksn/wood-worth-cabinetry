@@ -1,19 +1,18 @@
 import React from "react";
-import DataLiftingFromChild from "./components/DataLiftingFromChild/DataLiftingFromChild";
+import { useState } from "react";
+import AddToDo from "./components/TodoApp/AddToDo/AddToDo";
+import Todo from "./components/TodoApp/Todo/Todo";
 
+const toDoData = ["mr rayan", "mr charlie", "mr alex", "mr nafi"];
 function App() {
-  const info = {
-    name: "RIaz Ahmed Akhanda",
-    email: "riazakhanda@gmail.com",
-    password: "563636ksn",
-  };
-  const dataLifting = (data) => {
-    const { name, email, password } = data;
-    console.log(name, email, password);
+  const [todoData, setTodoData] = useState(toDoData);
+  const handleData = (data) => {
+    setTodoData([...todoData, data]);
   };
   return (
     <>
-      <DataLiftingFromChild info={info} lifting={dataLifting} />
+      <AddToDo liftingData={handleData} />
+      <Todo todoData={todoData} />
     </>
   );
 }

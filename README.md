@@ -42,3 +42,13 @@ Links [https://create-our-own-account.netlify.app/](https://create-our-own-accou
 2: child data passing into parents,
 
 3: lifting data
+
+
+##### `making a todo app by using lifting function, props passing child to parents and parents to children`
+1: passing data parents to child,
+
+2: child data passing into parents into array,
+
+3: state management (useState hook)
+
+3: lifting data
