@@ -36,6 +36,7 @@ Links [https://buy-your-ticket-by-counter-app.netlify.app/](https://buy-your-tic
 
 Links [https://create-our-own-account.netlify.app/](https://create-our-own-account.netlify.app/)
 
+
 ##### `lifting, props passing child to parents and parents to children`
 1: passing data parents to child,
 
@@ -52,3 +53,5 @@ Links [https://create-our-own-account.netlify.app/](https://create-our-own-accou
 3: state management (useState hook)
 
 3: lifting data
+
+Links [https://basic-todo-app-by-lifting-function.netlify.app/](https://basic-todo-app-by-lifting-function.netlify.app/)
