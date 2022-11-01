@@ -63,8 +63,8 @@ input {
   font-size: 24px;
   margin-bottom: 20px !important;
 }
-button {
-  padding: 16px 27px!important;
+.DataAdd button {
+  padding: 19px 30px!important;
   margin-top: 10px !important;
   background: black;
   border: 1px solid black;
@@ -74,6 +74,15 @@ button {
   border-radius: 0px;
   cursor: pointer;
 
+
+}
+textarea {
+  border: 1px solid black;
+  padding: 17px !important;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  width: 100%;
+  outline: none;
 }
 
 .user-introduce {
@@ -112,6 +121,56 @@ h3 {
   top: 20vh;
   margin-bottom: 50vh !important;
 }
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container h1 {
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 20px !important;
+}
+
+.data-showing {
+  margin: 0 150px !important;
+  border: 1px solid black;
+  padding: 29px !important;
+}
+
+.data-showing h2 {
+  font-weight: 500;
+  margin-bottom: 13px !important;
+}
+.data-showing p {
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.data-showing button {
+  padding: 14px 30px!important;
+  margin-top: 10px !important;
+  background: black;
+  border: 1px solid black;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  color: white;
+  border-radius: 0px;
+  cursor: pointer;
+
+
+}
+
+.data-showing h2 {
+  font-weight: 500;
+  margin-bottom: 21px !important;
+}
+
 /* textarea {
   width: 100%;
   padding: 10px !important;

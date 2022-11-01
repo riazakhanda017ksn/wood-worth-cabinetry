@@ -19,28 +19,55 @@
 
 // export default App;
 
+// import React from "react";
+// import { useState } from "react";
+// import Container from "./components/MegaTodo/Container/Container";
+// import DataAdd from "./components/MegaTodo/DataAdd/DataAdd";
+// import { v4 as uuidv4 } from "uuid";
+// const App = () => {
+//   const [data, setData] = useState([]);
+//   const liftingFunction = (data) => {
+//     setData((oldData) => {
+//       return [...oldData, { id: uuidv4(), data }];
+//     });
+//   };
+//   const handleDataRemove = (id) => {
+//     setData((data) => {
+//       return data.filter((item) => item.id !== id);
+//     });
+//   };
+//   return (
+//     <div className="todo_app">
+//       <DataAdd liftingFunction={liftingFunction} />
+//       <Container data={data} handleDataRemove={handleDataRemove} />
+//     </div>
+//   );
+// };
+
+// export default App;
+
 import React from "react";
 import { useState } from "react";
 import Container from "./components/MegaTodo/Container/Container";
 import DataAdd from "./components/MegaTodo/DataAdd/DataAdd";
 import { v4 as uuidv4 } from "uuid";
 const App = () => {
-  const [data, setData] = useState([]);
-  const liftingFunction = (data) => {
-    setData((oldData) => {
-      return [...oldData, { id: uuidv4(), data }];
+  const [users, setUsers] = useState([]);
+  const liftingData = (data) => {
+    setUsers((previousUserData) => {
+      return [...previousUserData, { id: uuidv4(), data }];
     });
   };
-  const handleDataRemove = (id) => {
-    setData((data) => {
-      return data.filter((item) => item.id !== id);
+  const handleRemoveData = (id) => {
+    setUsers((userId) => {
+      return userId.filter((user) => user.id !== id);
     });
   };
   return (
-    <div className="todo_app">
-      <DataAdd liftingFunction={liftingFunction} />
-      <Container data={data} handleDataRemove={handleDataRemove} />
-    </div>
+    <>
+      <DataAdd liftingData={liftingData} />
+      <Container users={users} handleRemoveData={handleRemoveData} />
+    </>
   );
 };
 
