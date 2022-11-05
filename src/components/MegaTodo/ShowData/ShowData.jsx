@@ -22,11 +22,11 @@ import React from "react";
 const ShowData = (props) => {
   const { username, description } = props.user.data;
   const { id } = props.user;
-  console.log(id);
   const { handleRemoveData } = props;
   const handleDelete = (id) => {
     return handleRemoveData(id);
   };
+
   return (
     <>
       <div className="data-showing">
