@@ -93,3 +93,16 @@ Links [https://todo-app-with-crud.netlify.app/](https://todo-app-with-crud.netli
 8:how to make toggle
 
 Links [https://todo-app-with-crud.netlify.app/](https://story-webapp.netlify.app/)
+
+##### `in this project we made a image website by using useState and useEffect Hooks`
+
+1: passing data parents to child,
+
+2: state management (useState hook) and (useEffect hook) and also i have made custom hook
+
+3: ternary operator (? :) (short circuit &&) for condition rendering
+
+4: maps 
+
+
+Links [https://search-photo-from-api.netlify.app/](https://search-photo-from-api.netlify.app/)
