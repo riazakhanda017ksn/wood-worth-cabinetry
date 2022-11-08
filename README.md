@@ -104,5 +104,24 @@ Links [https://todo-app-with-crud.netlify.app/](https://story-webapp.netlify.app
 
 4: maps 
 
-
 Links [https://search-photo-from-api.netlify.app/](https://search-photo-from-api.netlify.app/)
+
+##### `in this project we made a country website by using useState and useEffect Hooks and fake api and lifting function`
+
+1: passing data parents to child,
+
+2: child data passing into parents into array,
+ 
+3: passing lifting function parents to child and child to parents
+
+4: state management (useState hook) and useEffect(()=>{},[]) hooks
+
+5: ternary operator (? :) (short circuit &&) for condition rendering 
+
+6: maps and filter has been used
+
+7: delete functionality
+
+8: search functionality
+
+Links [https://searchcountryapp134.netlify.app/](https://searchcountryapp134.netlify.app/)
