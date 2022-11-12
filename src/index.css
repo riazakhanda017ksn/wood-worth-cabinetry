@@ -40,7 +40,11 @@ form {
   position: relative;
   padding: 40px 0!important;
 }
-
+.itemBox {
+  border: 1px solid black;
+  margin: 10px !important;
+  padding: 34px !important;
+}
 @media (max-width: 990px) {
   form {
     width: 90%;
@@ -97,6 +101,24 @@ input {
 
 }
 .item-box button {
+  padding: 13px 30px!important;
+  margin-top: 10px !important;
+  background: rgb(255, 4, 75);
+  border: 1px solid rgb(255, 4, 75);
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  color: white;
+  border-radius: 0px;
+  cursor: pointer;
+  border-radius: 6px;
+
+}
+.SearchItem {
+  width: 40%;
+  margin: 0 auto !important;
+  padding: 60px 0 !important;
+}
+.btn {
   padding: 13px 30px!important;
   margin-top: 10px !important;
   background: rgb(255, 4, 75);
@@ -392,7 +414,7 @@ input[type="text"] {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  height: 60vh;
   color: #767676;
 }
 

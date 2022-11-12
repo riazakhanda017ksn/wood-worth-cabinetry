@@ -164,75 +164,88 @@
 
 // export default App;
 
+// import React from "react";
+// import { useEffect } from "react";
+// import { useState } from "react";
+// import CountryData from "./components/CountryApp/DataShow/CountryData";
+// import Search from "./components/CountryApp/DataShow/Search";
+
+// const App = () => {
+//   const [data, setData] = useState([]);
+//   const [filteredCountry, setFilteredCountry] = useState(data);
+//   const [loading, setLoading] = useState(true);
+//   const [error, setError] = useState(null);
+
+//   const DataFetching = async (url) => {
+//     try {
+//       setLoading(true);
+//       const fetchData = await fetch(url);
+//       const response = await fetchData.json();
+//       setData(response);
+//       setFilteredCountry(response);
+//       setLoading(false);
+//       setError(null);
+//     } catch (error) {
+//       setError(error);
+//       setLoading(false);
+//     }
+//   };
+//   useEffect(() => {
+//     setTimeout(() => {
+//       DataFetching("https://restcountries.com/v3.1/all");
+//     }, 2000);
+//   }, []);
+
+//   const deleteCountry = (name) => {
+//     const deleteCountry = filteredCountry.filter((filterItem) => {
+//       return filterItem.name.common !== name;
+//     });
+//     setFilteredCountry(deleteCountry);
+//   };
+//   const handleSearch = (search) => {
+//     const item = search?.toLowerCase();
+//     const filterItem = data.filter((value) => {
+//       const namesItem = value.name.common.toLowerCase();
+//       return namesItem.startsWith(item);
+//     });
+//     setFilteredCountry(filterItem);
+//   };
+//   return (
+//     <div className="data_fetching text-center">
+//       <br />
+//       <br />
+//       <br />
+
+//       <h1>country app</h1>
+//       <Search handleSearch={handleSearch} />
+//       {error && (
+//         <div className="loading">
+//           <h1>{error.message}</h1>
+//         </div>
+//       )}
+//       {loading && (
+//         <div className="loading">
+//           <h1>please wait </h1>
+//         </div>
+//       )}
+
+//       <>
+//         <CountryData data={filteredCountry} deleteCountry={deleteCountry} />
+//       </>
+//     </div>
+//   );
+// };
+
+// export default App;
+
 import React from "react";
-import { useEffect } from "react";
-import { useState } from "react";
-import CountryData from "./components/CountryApp/DataShow/CountryData";
-import Search from "./components/CountryApp/DataShow/Search";
+import DataFetchCountry from "./components/DataFetchCountry/DataFetchCountry";
 
 const App = () => {
-  const [data, setData] = useState([]);
-  const [filteredCountry, setFilteredCountry] = useState(data);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  const DataFetching = async (url) => {
-    try {
-      setLoading(true);
-      const fetchData = await fetch(url);
-      const response = await fetchData.json();
-      setData(response);
-      setFilteredCountry(response);
-      setLoading(false);
-      setError(null);
-    } catch (error) {
-      setError(error);
-      setLoading(false);
-    }
-  };
-  useEffect(() => {
-    setTimeout(() => {
-      DataFetching("https://restcountries.com/v3.1/all");
-    }, 2000);
-  }, []);
-
-  const deleteCountry = (name) => {
-    const deleteCountry = filteredCountry.filter((filterItem) => {
-      return filterItem.name.common !== name;
-    });
-    setFilteredCountry(deleteCountry);
-  };
-  const handleSearch = (search) => {
-    const item = search.toLowerCase();
-    const filterItem = data.filter((value) => {
-      const namesItem = value.name.common.toLowerCase();
-      return namesItem.startsWith(item);
-    });
-    setFilteredCountry(filterItem);
-  };
   return (
-    <div className="data_fetching text-center">
-      <br />
-      <br />
-      <br />
-
-      <h1>country app</h1>
-      <Search handleSearch={handleSearch} />
-      {error && (
-        <div className="loading">
-          <h1>{error.message}</h1>
-        </div>
-      )}
-      {loading && (
-        <div className="loading">
-          <h1>please wait </h1>
-        </div>
-      )}
-
-      <>
-        <CountryData data={filteredCountry} deleteCountry={deleteCountry} />
-      </>
-    </div>
+    <>
+      <DataFetchCountry />
+    </>
   );
 };
 
