@@ -449,3 +449,16 @@ input[type="text"] {
   line-height: 18px;
   margin: 12px 0 !important;
 }
+
+.api-management{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: black;
+  color: aliceblue !important;
+}
+
+a{
+  color: aliceblue !important;
+}

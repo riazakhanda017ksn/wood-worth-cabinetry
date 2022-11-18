@@ -151,7 +151,7 @@ Links [https://searchcountryapp134.netlify.app/](https://searchcountryapp134.net
 Links [https://find-static-user.netlify.app/](https://find-static-user.netlify.app/)
 
 
-##### `in this project we made a country website by using useReducer Hooks`
+##### `in this project we made a country website by using additional useReducer Hooks`
 
 1: passing data parents to child,
 
@@ -159,7 +159,7 @@ Links [https://find-static-user.netlify.app/](https://find-static-user.netlify.a
  
 3: passing lifting function parents to child and child to parents
 
-4: state management (useState hook) and useReducer
+4: state management (basic useState hook) and additional hook useReducer
 
 5: ternary operator (? :) (short circuit &&) for condition rendering 
 
@@ -172,3 +172,10 @@ Links [https://find-static-user.netlify.app/](https://find-static-user.netlify.a
 
 
 Links [https://user-by-usereducer.netlify.app/](https://user-by-usereducer.netlify.app/)
+
+
+##### `in this project we made a country website by using basic context hook`
+
+*** in this tutorial i have recap how to use basic context hook in react
+
+Links [https://dazzling-conkies-7c3e76.netlify.app/](https://dazzling-conkies-7c3e76.netlify.app/)

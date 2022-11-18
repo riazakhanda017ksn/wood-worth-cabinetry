@@ -238,16 +238,29 @@
 
 // export default App;
 
+// import React from "react";
+// import UseReducer from "./components/UseReducer/UseReducer";
+// // import DataFetchCountry from "./components/DataFetchCountry/DataFetchCountry";
+
+// const App = () => {
+//   return (
+//     <>
+//       {/* <DataFetchCountry /> */}
+//       <UseReducer />
+//     </>
+//   );
+// };
+
+// export default App;
+
 import React from "react";
-import UseReducer from "./components/UseReducer/UseReducer";
-// import DataFetchCountry from "./components/DataFetchCountry/DataFetchCountry";
+import Component1 from "./components/Context/Component/Component1";
 
 const App = () => {
   return (
-    <>
-      {/* <DataFetchCountry /> */}
-      <UseReducer />
-    </>
+    <div className="api-management">
+      <Component1 />
+    </div>
   );
 };
 
