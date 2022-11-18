@@ -239,12 +239,14 @@
 // export default App;
 
 import React from "react";
-import DataFetchCountry from "./components/DataFetchCountry/DataFetchCountry";
+import UseReducer from "./components/UseReducer/UseReducer";
+// import DataFetchCountry from "./components/DataFetchCountry/DataFetchCountry";
 
 const App = () => {
   return (
     <>
-      <DataFetchCountry />
+      {/* <DataFetchCountry /> */}
+      <UseReducer />
     </>
   );
 };
