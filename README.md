@@ -150,3 +150,25 @@ Links [https://searchcountryapp134.netlify.app/](https://searchcountryapp134.net
 
 Links [https://find-static-user.netlify.app/](https://find-static-user.netlify.app/)
 
+
+##### `in this project we made a country website by using useReducer Hooks`
+
+1: passing data parents to child,
+
+2: child data passing into parents into other function,
+ 
+3: passing lifting function parents to child and child to parents
+
+4: state management (useState hook) and useReducer
+
+5: ternary operator (? :) (short circuit &&) for condition rendering 
+
+6: maps and filter has been used
+
+7: delete functionality
+
+8: search functionality
+
+
+
+Links [https://user-by-usereducer.netlify.app/](https://user-by-usereducer.netlify.app/)
