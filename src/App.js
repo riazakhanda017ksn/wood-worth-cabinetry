@@ -253,14 +253,27 @@
 
 // export default App;
 
+// import React from "react";
+// import Component1 from "./components/Context/Component/Component1";
+
+// const App = () => {
+//   return (
+//     <div className="api-management">
+
+//     </div>
+//   );
+// };
+
+// export default App;
+
 import React from "react";
-import Component1 from "./components/Context/Component/Component1";
+import RouteItem from "./components/Routes/Routes";
 
 const App = () => {
   return (
-    <div className="api-management">
-      <Component1 />
-    </div>
+    <>
+      <RouteItem />
+    </>
   );
 };
 
