@@ -164,7 +164,7 @@ export const all__products = [
   {
     id: ` 122dsn2526a`,
     image: img5,
-    name: "Vanity / Shaker",
+    name: "Classic Style ",
     new: "NEW",
     class: "",
     vector: v3,
@@ -184,7 +184,7 @@ export const all__products = [
   {
     id: `122362317771227gghas122`,
     image: img9,
-    name: "Classic Style",
+    name: "Vanity / Shaker",
     new: "NEW",
     class: "",
     vector: v1,
