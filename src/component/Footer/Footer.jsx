@@ -77,6 +77,9 @@ const Footer = () => {
                 <li>
                   <Link to="/warranty">WARRANTY</Link>
                 </li>
+                <li>
+                  <Link to="/company-info">COMPANY INFO</Link>
+                </li>
               </ul>
             </div>
           </div>
