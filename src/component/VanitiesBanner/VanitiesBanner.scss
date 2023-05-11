@@ -1,0 +1,108 @@
+.vanities-banner{
+    background: url(../../images/pexels-max-rahubovskiy-7018392.jpg)no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    background-position:  center 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.vanities-banner-two{
+    background: url(../../images/v1.jpg)no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    background-position:  top center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.vanities-banner-three{
+    background: url(../../images/v2.jpg)no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    background-position:  center ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vanities-img small {
+    font-size: 9px;
+    background: gray;
+    padding: 2px;
+    color: white;
+    margin: 9px;
+    display: inline-block;
+}
+.vanities-img p {
+    font-size: 14px;
+}
+
+.color-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color-navbar span {
+    font-size: 11px;
+    margin: 10px;
+    background: #8b8b8b;
+    padding: 0px 11px;
+    color: white;
+}
+
+.colors-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    }
+
+    .item span {
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        border-radius: 50%;
+        border: 2px solid #9d9d9d;
+    }
+
+
+    .item p {
+        margin: 0;
+        font-size: 11px;
+        padding-bottom: 8px;
+    }
+
+    .colors-item {
+        margin-top: 15px;
+    }
+
+    .gray-bg{
+        background:#F0F0F0;
+        padding: 40px 0;
+        margin-top: 16px;
+    }
+
+    .gray-bg video {
+        width: 100%;
+    }
+
+    .gray-bg {
+        text-align: center;
+    }
+
+    .gray-bg h5 {
+        font-size: 22px;
+        margin-top: 15px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    .gray-bg p {
+        margin: 15px 0;
+        font-size: 15px;
+    }

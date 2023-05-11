@@ -1,0 +1,115 @@
+
+.register{
+    background:linear-gradient(0deg, #000000c9 0%, rgba(0, 0, 0, 0.637) 28.71%, rgba(0,0,0,0) 100%),
+ url(../../images/12344444555.jpg)no-repeat fixed;
+background-size: cover;
+z-index: -1;
+height: 100vh;
+
+}
+
+.input-flex select{
+    width: 97%;
+    padding: 14px;
+    border: 1px solid black;
+    outline: none;
+}
+
+input.width-for-input {
+    width: 97%;
+}
+
+.one-input p {
+    margin: 6px 0 !important
+    
+}
+
+.flex-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.flex-item p {
+    margin: 0;
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.contact-btn.text-centers {
+    justify-content: start;
+    margin-top: 40px;
+}
+.text-for-dealers h2 {
+    font-size: 27px;
+}
+
+// 
+
+
+
+.form-section_heading:before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #000104;
+    margin-right: 15px;
+}
+.form-section_heading:after {
+    margin-left: 15px;
+    content: '';
+    display: block;
+    height: 1px;
+    background: #000104;
+    flex-grow: 1;
+}
+
+.form-section_heading {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    font: normal 16px "AvenirNextLTPro-DemiCn",sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+    padding: 50px 0;
+    font-weight: 600;
+}
+
+.one-input p{
+    text-transform: uppercase;
+}
+
+.input-flex select {
+    width: 97%;
+    padding: 14px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight:600
+}
+
+.flex-checkbox {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.flex-checkbox small {
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.need-align {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.or-submit-btn {
+    justify-content: flex-start !important;
+}

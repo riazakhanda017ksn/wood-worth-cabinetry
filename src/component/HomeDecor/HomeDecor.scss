@@ -1,0 +1,28 @@
+.products-decor {
+    display: grid;
+    grid-template-columns: 2fr repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+    .items-decor img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        margin-top: 50px;
+    }
+
+    .names {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 17px;
+        text-transform: uppercase;
+    }
+    .names p {
+        font-weight: 500;
+    }
+
+    .names a{
+        color: black;
+    }

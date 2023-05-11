@@ -1,0 +1,90 @@
+.footer{
+    background: black;
+    color:white
+}
+
+.about-us h5 {
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.about-us p {
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+.about-us button {
+    padding: 14px 20px;
+    font-size: 14px;
+    background: none;
+    color: #FFF;
+    border: 1px solid white;
+    border-radius: 32px;
+    transition: .3s ease-in-out;
+
+}
+
+.about-us button:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.about-us ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.about-us ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 6px;
+    display: block;
+}
+
+.need-space{
+    padding-left: 23px;
+}
+
+.about-us small {
+    display: inline-block;
+    margin-top: 6px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.last-section {
+    border-top: 1px solid white;
+    padding: 25px 0;
+    margin-top: 70px;
+}
+.last-section p {
+    font-size: 13px;
+}
+.last-section a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 13px;
+    padding: 0 15px;
+}
+.about-us ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px !important;
+    font-weight: 400;
+    margin-top: 8px;
+    display: block;
+}
+
+.last-section a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    padding: 0 15px;
+}

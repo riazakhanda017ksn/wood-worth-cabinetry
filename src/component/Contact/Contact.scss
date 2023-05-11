@@ -1,0 +1,140 @@
+
+
+    .contact{
+        background:linear-gradient(0deg, #000 0%, rgba(0,0,0,0.82) 28.71%, rgba(0,0,0,0) 100%),
+     url(../../images/123456.jpg)no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+    }
+
+    .contact-form {
+        box-shadow: 0 0 70px rgba(160,160,160,0.3);
+        padding: 130px 100px;
+    }
+
+    .contact-form p {
+        margin-top: 20px;
+        line-height: 30px;
+    }
+
+    .input-flex {
+        display: flex;
+        margin-bottom: 22px;
+    }
+
+    .one-input {
+        width: 100%;
+    }
+
+    .one-input input{
+        width: 94%;
+        padding: 10px;
+        border: 1px solid black;
+        outline: none;
+    }
+    .one-input textarea {
+        width: 98%;
+        padding: 10px;
+        border: 1px solid black;
+        outline: none;
+    }
+
+    .one-input p {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+
+    .contact-btn button {
+        background: none;
+        padding: 20px 23px !important;
+        font-size: 10px;
+        color: #ffffff;
+        margin-top: 10px;
+        position: relative;
+        background: black;
+        border: none;
+        width: 230px;
+        text-align: left;
+        font-weight: 500;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid black;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        &:hover{
+            background: none;
+            transition: .3s ease-in-out;
+            color:black
+
+        }
+    }
+    .contact-btn button svg {
+        font-size: 20px;
+    }
+
+    .contact-btn {
+        width: 98%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .address {
+        padding: 0px 80px;
+    }
+
+    .address p {
+        margin: 0;
+        padding: 10px 0;
+    }
+    .address span {
+        color: #767676;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    .address {
+        padding: 0px 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        height: 100%;
+    }
+
+    .map {
+        margin-top: 55px;
+    }
+
+    .contact-inf svg {
+        font-size: 40px;
+        margin-bottom: 19px;
+    }
+    .contact-inf h5 {
+        text-transform: uppercase;
+        font-size: 16px;
+        margin: 0;
+        font-weight: 600;
+    }
+
+    .contact-inf p {
+        margin: 6px 0;
+        font-size: 14px;
+    }
+
+    .contact-form {
+        box-shadow: 0 0 70px rgba(160, 160, 160, 0.3);
+        padding: 130px 100px;
+        position: relative;
+        bottom: 206px;
+        z-index: 9;
+        background: white;
+    }
+    .dealer-form{
+       position: relative;
+        bottom: 6px !important;
+    }

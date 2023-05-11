@@ -1,0 +1,32 @@
+.DreamKitchen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+
+.DreamKitchen h1 {
+    font-size: 31px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.DreamKitchen button {
+    padding: 15px 100px;
+    text-transform: uppercase;
+    font-size: 13px;
+    background: none;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+    border: 2px solid black;
+}
+.DreamKitchen button:hover{
+    background: black;
+    color: white;
+}
+
+.about-us.need-space h6 {
+    border-bottom: 1px solid white;
+    padding-top: 15px;
+}

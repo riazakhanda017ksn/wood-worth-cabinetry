@@ -1,0 +1,103 @@
+.dealer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+    .half-column{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        background: #C8893E;
+        color: white;
+        padding: 163px;
+        width: 100%;
+    }
+
+    .half-column h2 {
+        font-size: 28px;
+        width: 100%;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+
+    .half-column p {
+        font-size: 18px;
+        color: #ffffff;
+        line-height: 27px;
+        font-weight: 400;
+    }
+   
+    .dealer-image img {
+        width: 700px;
+        height: 100%;
+        object-fit: cover;
+        position: relative;
+        right: 120px;
+        bottom: 45px;
+    }
+
+    .dealer-image{
+        background: url(../../images/11efd97e-dd98-41af-a2c1-5ff31428e57c_dealers.avif)no-repeat;
+        background-size: cover; width: 100%;
+        // margin-right: -33.33%;
+        // margin-top: -40px;
+        // position: relative;
+        // background-size: contain;
+        // background-position: 50% 50%;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    // .dealers {
+    //     transform: translate3d(-100px, -70.319px, 0px);
+    //     width: 121%;
+    //     margin-top: -70px;
+    // }
+    .styled{
+        margin-top: 100px;
+    }
+    
+
+    .sign-up-btn {
+        width: 100%;
+    }
+
+    .sign-up-btn button {
+        padding: 12px 37px;
+        border: 1px solid white;
+        background: none;
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 18px;
+        &:hover{
+         background: white;
+         color: black;
+         transition: .3s ease-in-out;
+        }
+    }
+    
+    .half-column {
+        
+        padding: 100px ;
+    }
+
+    .kitchen {
+        transition: .3s ease-in-out;
+    }
+
+    .kitchen:hover{
+        transform: scaleX(1.1);
+    }
+
+
+    
+   

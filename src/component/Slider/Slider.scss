@@ -1,0 +1,144 @@
+.slide-one{
+    background: url(../../images/12222222222.avif)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    padding: 140px 0;
+}
+.slide-two{
+    background: url(../../images/2nd.avif)no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+.slide-three{
+    background: url(../../images/6d423070-f877-4568-92a4-48ff1c300707_LLW_homepage_v2.avif)no-repeat ;
+    background-size: cover;
+    height: 80vh;
+    background-position: right 25%;
+    padding: 160px;
+}
+.slide-four{
+    background: url(../../images/103.avif)no-repeat ;
+    background-size: cover;
+    height: 80vh;
+    background-position: left 25%;
+}
+.slide-five{
+    background: url(../../images/105.avif)no-repeat ;
+    background-size: cover;
+    height: 80vh;
+    background-position: right 25%;
+}
+.slide-six{
+    background: url(../../images/Banners_desktop.avif)no-repeat ;
+    background-size: cover;
+    height: 80vh;
+    background-position: left 25%;
+}
+.slide-seven{
+    background: url(../../images/Nexus_Frost.avif)no-repeat ;
+    background-size: cover;
+    height: 80vh;
+    background-position: left 25%;
+    padding: 150px;
+}
+.slide-eight{
+    background: url(../../images/homepage_2_desktop.avif)no-repeat ;
+    background-size: cover;
+    height: 80vh;
+    background-position: right 25%;
+    padding: 150px;
+}
+.slide-nine{
+    background: url(../../images/Fusion_Kona.avif)no-repeat ;
+    background-size: cover;
+    height: 80vh;
+    background-position: left 25%;
+    padding: 150px;
+}
+.slide-ten{
+    background: url(../../images/aab62ea3-8a3f-4798-8946-59b2aad147fc_custom-color-home-page-banner-1910x600-2.avif)no-repeat ;
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
+}
+
+.content h1 {
+    font-weight: 500;
+    font-size: 57px;
+}
+
+.content h1 span{
+    font-style: italic;
+}
+
+.content h3{
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.content button {
+    background: none;
+    padding: 22px 23px!important;
+    font-size: 10px;
+    color: #ffffff;
+    margin-top: 35px;
+    position: relative;
+    background: black;
+    border: none;
+    width: 230px;
+    text-align: left;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .3s ease-in-out;
+}
+
+.content button svg{
+    font-size: 20px;
+}
+
+.content button:hover{
+    background: none;
+    color: black;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 24px;
+    height: 3px;
+    padding: 0;
+    margin-right: 7px;
+    margin-left: 7px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000000;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    transition: opacity .6s ease;
+    padding: 8px 0; transition: .3s ease-in-out;
+  
+}
+
+.carousel-indicators [data-bs-target]:hover{
+    background-color: #000000 !important;
+    opacity: 1 !important;
+}
+
+a{
+    text-decoration: none;
+}

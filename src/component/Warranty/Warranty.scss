@@ -1,0 +1,61 @@
+.warranty {
+    background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.82) 28.71%, rgba(0, 0, 0, 0) 100%), 
+    url(../../images/ddd.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+}
+
+.warranty-caption {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.a-ancor{
+    color: #000 !important;
+}
+
+.warranty-caption h3 {
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.warranty-caption a {
+    background: none;
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.warranty-caption span svg {
+    font-size: 18px;
+    position: relative;
+    bottom: 2px;
+    margin-right: 10px;
+}
+
+.register-now button{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    background: #182430;
+    padding: 11px 24px 12px;
+    text-transform: none;
+    box-shadow: none;
+    border: 1px solid #182430 ;
+    border-radius: 6px;
+    margin-top: 20px;
+
+}
+
+.Coverage-of-Warranty p {
+    font-size: 13px;
+    line-height: 22px;
+}
+.Coverage-of-Warranty h5 {
+    font-size: 18px;
+}

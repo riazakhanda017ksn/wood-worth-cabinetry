@@ -1,0 +1,50 @@
+.home {
+    padding: 45px;
+    background: black;
+    color: #FFF;
+}
+
+.home h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.home p{
+    padding: 2px 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.home p span {
+    margin-left: 40px;
+}
+.kitchen {
+    padding: 45px;
+    background: #F1F1F1;
+    color: #000000;
+}
+
+.kitchen h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.kitchen p{
+    padding: 2px 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.kitchen p span {
+    margin-left: 40px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }

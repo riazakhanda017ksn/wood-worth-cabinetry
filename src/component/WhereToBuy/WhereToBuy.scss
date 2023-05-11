@@ -1,0 +1,49 @@
+.boxes{
+    background:linear-gradient(0deg, #000 0%, rgba(0,0,0,0.82) 28.71%, rgba(0,0,0,0) 100%), url(../../images/where-to-buy.png) no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.boxes-two{
+    background:linear-gradient(0deg, #000 0%, rgba(0,0,0,0.82) 28.71%, rgba(0,0,0,0) 100%), url(../../images/become-a-dealer.png) no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.box-content{
+    padding: 100px !important;
+    text-align: center;
+}
+
+.box-content h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.box-content button {
+    margin-top: 20px;
+    padding: 15px 20px;
+    font-weight: 600;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    &:hover{
+        background: white;
+        color: #060606;
+        transition: .3s ease-in-out;
+    }
+}
+
+.box-shape {
+    border: 1px solid black;
+    padding: 42px;
+}

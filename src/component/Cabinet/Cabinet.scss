@@ -1,0 +1,25 @@
+.parents {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 18px;
+    grid-row-gap: 0px;
+    }
+
+    .display-center {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .cabinet-container a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .padding-x {
+        padding: 0 212px;
+    }
+
+    p.mt-2.text-left {
+        text-align: start;
+    }
