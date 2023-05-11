@@ -29,11 +29,13 @@ import LoginManagement from "./component/LoginManagement/LoginManagement";
 import DoorDetails from "./component/DoorDetails/DoorDetails";
 import WarrantyManagement from "./component/WarrantyManagement/WarrantyManagement";
 import CompanyInfo from "./component/CompanyInfo/CompanyInfo";
+import ScrollTop from "./component/ScrollToTop/ScrollToTop";
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
+        <ScrollTop />
         <Routes>
           <Route path="/" element={<HomeManagement />} />
           <Route path="/all-door" element={<CabinetManagent />} />
