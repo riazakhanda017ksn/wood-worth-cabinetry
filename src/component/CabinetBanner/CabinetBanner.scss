@@ -70,7 +70,7 @@ a.link___{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: auto !important;
     flex-direction: column;
     width: 100%;
 }

@@ -23,3 +23,18 @@
     p.mt-2.text-left {
         text-align: start;
     }
+
+    // .products__image img {
+    //     width: 100%;
+    //     height: 80vh;
+    //     object-fit: cover;
+
+    // }
+
+    .vector-img img {
+        width: 200px;
+        height: 300px;
+        object-fit: contain;
+        position: relative;
+        right: 20px;
+    }

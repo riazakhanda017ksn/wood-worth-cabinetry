@@ -4,13 +4,13 @@
         background:linear-gradient(0deg, #000 0%, rgba(0,0,0,0.82) 28.71%, rgba(0,0,0,0) 100%),
      url(../../images/123456.jpg)no-repeat fixed;
     background-size: cover;
-    height: 100vh;
+    height: 62vh !important  ;
     z-index: -1;
     }
 
     .contact-form {
         box-shadow: 0 0 70px rgba(160,160,160,0.3);
-        padding: 130px 100px;
+        padding: 100px 100px;
     }
 
     .contact-form p {
@@ -128,9 +128,9 @@
 
     .contact-form {
         box-shadow: 0 0 70px rgba(160, 160, 160, 0.3);
-        padding: 130px 100px;
+        padding: 100px 100px;
         position: relative;
-        bottom: 206px;
+        bottom: 240px;
         z-index: 9;
         background: white;
     }

@@ -42,7 +42,7 @@ const CabinetBanner = () => {
                         backgroundRepeat: "no-repeat",
                         backgroundSize: "contain",
                         width: "100%",
-                        padding: "150px 0",
+                        padding: "180px 0",
                         backgroundPosition: "center",
                       }}
                     ></div>

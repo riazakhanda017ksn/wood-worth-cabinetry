@@ -4,12 +4,11 @@ import Footer from "../Footer/Footer";
 import { Link, useParams } from "react-router-dom";
 import { all__products } from "../../Data/ProductData";
 import { BsArrowRight } from "react-icons/bs";
-import img from "../../images/vecotr.avif";
 
 const DoorDetails = () => {
   const { id } = useParams();
   const product = all__products.find((product) => product.id === id);
-  const { name, details, images, colors, image } = product;
+  const { name, details, images, colors, image, vector } = product;
   console.log(colors);
   return (
     <div className="door-details">
@@ -20,7 +19,7 @@ const DoorDetails = () => {
             <div className="details">
               <span>{name}</span> <br />
               <div className="vector-img">
-                <img src={img} alt="" />
+                <img src={vector} alt="" />
               </div>
               <p>{details}</p>
             </div>

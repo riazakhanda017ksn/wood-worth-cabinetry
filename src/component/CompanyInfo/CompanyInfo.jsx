@@ -17,7 +17,7 @@ const CompanyInfo = () => {
       <Navbar />
       <div className="company-info"></div>
       <div
-        className="QualityRedefined padding"
+        className="QualityRedefined padding more-class"
         style={{ overflow: "hidden", paddingBottom: "150px" }}
       >
         <div className="container">

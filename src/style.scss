@@ -66,7 +66,7 @@ input.my-file-input {
 
 .register {
  
-  height: 70vh !important;
+  height: 65vh !important;
 }
 .login-banner {
  
@@ -81,16 +81,20 @@ input.my-file-input {
   z-index: -1;
 }
  .padding{
-  padding: 110px 0;
+  padding: 100px 0;
  }
 
+.flex-box h1,h3{
+  width: 100%;
+  
+}
  .CabinetBanner {
   padding-top: 20px;
 }
 
 .CabinetBanner video {
   width: 100%;
-  height: 70vh !important;
+  height: 60vh !important;
   object-fit: cover !important;
 }
  @media only screen and (max-width: 990px) {
@@ -411,9 +415,7 @@ input.my-file-input {
   font-size: 12px !important;
   width: 100% !important;
 }
-.products__image {
-  height: 100vh !important;
-}
+
 .padding-x {
   padding: 0 2px !important;
 }
@@ -428,6 +430,14 @@ input.my-file-input {
 .a-ancor{
   color: #000 !important;margin-top: 20px !important;
   display: block;
+}
+
+.vector-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: relative;
+  right: 0px;
 }
 
 }

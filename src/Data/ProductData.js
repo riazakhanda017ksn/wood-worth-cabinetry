@@ -1,16 +1,16 @@
 import img1 from "../images/p11.png";
-import img2 from "../images/p22.jpg";
-import img3 from "../images/p33.jpg";
-import img4 from "../images/p44.jpg";
-import img5 from "../images/p55.jpg";
-import img6 from "../images/p66.jpg";
-import img7 from "../images/p77.jpg";
-import img8 from "../images/p88.jpg";
+import img2 from "../images/p22.png";
+import img3 from "../images/p33.png";
+import img4 from "../images/p44.png";
+import img5 from "../images/p55.png";
+import img6 from "../images/p66.png";
+import img7 from "../images/p77.png";
+import img8 from "../images/p88.png";
 import img9 from "../images/p99.png";
-import img10 from "../images/p10.jpg";
-import img11 from "../images/p11.jpg";
-import img12 from "../images/p12.jpg";
-import img13 from "../images/p13.jpg";
+import img10 from "../images/p10.png";
+import img11 from "../images/p111.png";
+import img12 from "../images/p222.png";
+import img13 from "../images/p333.png";
 import image from "../images/d1.avif";
 import image2 from "../images/d2.avif";
 import image3 from "../images/d3.avif";
@@ -26,6 +26,9 @@ import images3 from "../images/b1.jpg";
 import r1 from "../images/r1.jpg";
 import r2 from "../images/r2.jpg";
 import r3 from "../images/r3.jpg";
+import v1 from "../images/v1.png";
+import v2 from "../images/v2.png";
+import v3 from "../images/v3.png";
 
 export const productsData = [
   {
@@ -104,13 +107,14 @@ export const all__products = [
     name: "Transitional / Shaker",
     new: "NEW",
     class: "",
+    vector: v1,
     images: [
       {
-        image: img6,
+        image: img7,
         name: "Gray",
       },
       {
-        image: img13,
+        image: img6,
         name: "White",
       },
       {
@@ -130,24 +134,25 @@ export const all__products = [
   {
     id: "12637wuiwuw",
     image: img12,
-    name: "Modern/ Syncron",
+    name: "Modern / Syncron",
     new: "",
     class: "opacity",
+    vector: v2,
     images: [
       {
-        image: img11,
+        image: img1,
         name: "Ida02",
       },
       {
-        image: img1,
+        image: img10,
         name: "GIda03",
       },
       {
-        image: img9,
+        image: img11,
         name: "Luxy Blanco",
       },
       {
-        image: img13,
+        image: img12,
         name: "Luxy Basalto",
       },
     ],
@@ -158,13 +163,14 @@ export const all__products = [
   },
   {
     id: ` 122dsn2526a`,
-    image: img10,
+    image: img5,
     name: "Vanity / Shaker",
     new: "NEW",
     class: "",
+    vector: v3,
     images: [
       {
-        image: img10,
+        image: img5,
         name: "Willow Charcoal",
       },
     ],
@@ -177,17 +183,18 @@ export const all__products = [
   },
   {
     id: `122362317771227gghas122`,
-    image: img3,
-    name: "Catalina Bianco Gloss",
+    image: img9,
+    name: "Classic Style",
     new: "NEW",
     class: "",
+    vector: v1,
     images: [
       {
-        image: img6,
+        image: img7,
         name: "Gray",
       },
       {
-        image: img13,
+        image: img6,
         name: "White",
       },
       {

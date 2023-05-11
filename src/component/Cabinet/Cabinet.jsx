@@ -35,8 +35,8 @@ const Cabinet = () => {
                       background: `url(${data.image})`,
                       backgroundRepeat: "no-repeat",
                       backgroundSize: "contain",
-                      height: "50vh",
                       width: "100%",
+                      padding: "150px 0",
                     }}
                   ></div>
                 </div>
@@ -51,18 +51,19 @@ const Cabinet = () => {
             {productsData2.map((productTwo) => {
               return (
                 <div
-                  className="col-lg-4 text-center"
+                  className="col-lg-4 text-center cabinet_dor"
                   data-aos="fade-right"
                   data-aos-duration="1000"
                   data-aos-easing="ease-in-out"
                 >
                   <div
+                    className="products__image"
                     style={{
                       background: `url(${productTwo.image})`,
                       backgroundRepeat: "no-repeat",
                       backgroundSize: "contain",
-                      height: "50vh",
                       width: "100%",
+                      padding: "150px 0",
                     }}
                   ></div>
                 </div>
