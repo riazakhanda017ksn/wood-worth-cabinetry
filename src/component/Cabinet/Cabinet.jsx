@@ -36,7 +36,7 @@ const Cabinet = () => {
                       backgroundRepeat: "no-repeat",
                       backgroundSize: "contain",
                       width: "100%",
-                      height: "450px",
+                      padding: "200px 0",
                     }}
                   ></div>
                 </div>
@@ -57,13 +57,13 @@ const Cabinet = () => {
                   data-aos-easing="ease-in-out"
                 >
                   <div
-                    className="products__image"
+                    // className="products__image"
                     style={{
                       background: `url(${productTwo.image})`,
                       backgroundRepeat: "no-repeat",
                       backgroundSize: "contain",
                       width: "100%",
-                      padding: "150px 0",
+                      padding: "200px 0",
                     }}
                   ></div>
                 </div>

@@ -54,6 +54,7 @@ const DoorDetails = () => {
         >
           <div className="col-lg-6">
             <div className="description">
+              <h3>SPECIFICATION</h3>
               {/* my toggle app */}
               {specification.map((item) => (
                 <Data item={item}></Data>
@@ -69,7 +70,10 @@ const DoorDetails = () => {
           <div className="col-lg-1"></div>
           <div className="col-lg-5">
             <div className="more-img">
-              <h4>2 Transitional style: (4 COLORS)</h4>
+              <h4>
+                {" "}
+                {name} style: ({images.length} COLORS)
+              </h4>
               <div
                 className="row"
                 data-aos="fade-right"
