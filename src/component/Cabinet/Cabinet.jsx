@@ -36,7 +36,7 @@ const Cabinet = () => {
                       backgroundRepeat: "no-repeat",
                       backgroundSize: "contain",
                       width: "100%",
-                      padding: "150px 0",
+                      height: "450px",
                     }}
                   ></div>
                 </div>

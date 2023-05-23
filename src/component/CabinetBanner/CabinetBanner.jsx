@@ -1,18 +1,12 @@
 import React from "react";
 import "./CabinetBanner.scss";
-import video from "../../video/pexels-curtis-adams-4469409-1280x720-30fps.mp4";
 import { all__products } from "../../Data/ProductData";
 import { Link } from "react-router-dom";
 const CabinetBanner = () => {
   return (
     <div className="CabinetBanner padding">
-      <div className="container">
-        <video controls autoPlay>
-          <source src={video} type="video/mp4" autoPlay />
-        </video>
-      </div>
       {/*  */}
-      <div className="container mt-5">
+      <div className="container">
         <div className="quality-caption">
           <span></span>
           <div className="text">
@@ -28,7 +22,7 @@ const CabinetBanner = () => {
             return (
               <div
                 key={data.id}
-                className="col-lg-3"
+                className="col-lg-4"
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-easing="ease-in-out"
@@ -36,7 +30,6 @@ const CabinetBanner = () => {
                 <Link to={`${data.id}`} className="link___">
                   <div className="container-bg">
                     <div
-                      className="product-img"
                       style={{
                         background: `url(${data.image})`,
                         backgroundRepeat: "no-repeat",

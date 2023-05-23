@@ -16,9 +16,49 @@ html {
   scroll-behavior: smooth !important
 }
 * {
-  scrollbar-width: auto !important;
-  scrollbar-color: #ffffff #ffffff !important;
   scroll-behavior: smooth !important;
+}
+.faq {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+  align-items: center;
+  
+}
+.details p {
+  font-size: 17px !important;
+  font-weight: 400;
+  line-height: 29px !important;
+  letter-spacing: 1px !important;
+}
+.more-img h4 {
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.faqs-details li {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.faqs {
+  border: 1px solid black;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  padding: 7px;
+}
+.faq h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.mapped-images h6 {
+  font-size: 14px;
+}
+.faq span {
+  font-size: 24px;
+  position: relative;
+  bottom: 6px;
 }
 
 input.my-file-input {
@@ -439,5 +479,14 @@ input.my-file-input {
   position: relative;
   right: 0px;
 }
+
+.container-bg {
+  background: #cfcfcf;
+  padding: 31px 22px;
+  margin: 60px 0px !important;
+  margin-bottom: 0px !important;
+  padding-bottom: 20px;
+}
+
 
 }

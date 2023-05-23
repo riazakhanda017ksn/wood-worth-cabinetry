@@ -1,5 +1,6 @@
-import img1 from "../images/p11.png";
-import img2 from "../images/p22.png";
+import img1 from "../images/p11.jpg";
+import img111 from "../images/p11.png";
+import img2 from "../images/p22.jpg";
 import img3 from "../images/p33.png";
 import img4 from "../images/p44.png";
 import img5 from "../images/p55.png";
@@ -23,12 +24,26 @@ import image9 from "../images/d9.avif";
 import images1 from "../images/b3.jpg";
 import images2 from "../images/b2.jpg";
 import images3 from "../images/b1.jpg";
+import images55 from "../images/Transitional-Shaker---navy-blue.jpg";
 import r1 from "../images/r1.jpg";
 import r2 from "../images/r2.jpg";
 import r3 from "../images/r3.jpg";
 import v1 from "../images/v1.png";
 import v2 from "../images/v2.png";
 import v3 from "../images/v3.png";
+import p1 from "../images/product-two/1.jpg";
+import p2 from "../images/product-two/2.jpg";
+import p3 from "../images/product-two/3.jpg";
+import p4 from "../images/product-two/4.jpg";
+import p5 from "../images/product-two/5.jpg";
+import p6 from "../images/product-two/6.jpg";
+import p7 from "../images/product-two/7.jpg";
+import p8 from "../images/product-two/8.jpg";
+import p9 from "../images/product-two/9.jpg";
+import p10 from "../images/product-two/10.jpg";
+import p11 from "../images/product-two/11.jpg";
+import p12 from "../images/product-two/12.jpg";
+import p13 from "../images/product-two/13.jpg";
 
 export const productsData = [
   {
@@ -103,56 +118,129 @@ export const productsData2 = [
 export const all__products = [
   {
     id: "123wjkkwkwk15126271",
-    image: img2,
+    image: img4,
     name: "Transitional / Shaker",
     new: "NEW",
     class: "",
     vector: v1,
     images: [
       {
-        image: img7,
-        name: "Gray",
-      },
-      {
         image: img6,
-        name: "White",
-      },
-      {
-        image: img2,
-        name: "Navy Blue",
+        name: "Shaker White",
       },
       {
         image: img3,
-        name: "Space Grey",
+        name: "Shaker gray",
+      },
+      {
+        image: img7,
+        name: "Shaker Space Gray",
+      },
+
+      {
+        image: images55,
+        name: "Shaker Navy Blue",
       },
     ],
     details: `A transitional style kitchen blends traditional and contemporary design elements
     to create a timeless and classic look that is also modern and up-to-date. This
     style combines classic details like raised panel cabinets and ornate moldings with
     sleek, clean lines and modern finishes.`,
+    specification: [
+      {
+        name: "Door",
+        list: "Full overlay door with mortise and tenon construction",
+        otherlist: "¾” Solid wood door frames with 3/8” MDF center panel",
+        otherlistTwo:
+          "Soft-close mechanism integrated in concealed six-way adjustable hinges",
+        other2: "",
+        other3: "",
+      },
+      {
+        name: "Drawer Box",
+        list: "5-piece recessed panel drawer fronts",
+        otherlist: " 5/8’’ solid birch drawer box with dovetail construction",
+        otherlistTwo: "Full extension concealed drawer runners",
+        other2: "",
+        other3: "",
+      },
+      {
+        name: "Box",
+        list: "Dovetail construction",
+        otherlist: "½” select birch plywood construction",
+        otherlistTwo:
+          "¾” adjustable shelves edge-banded in wood veneer natural finish",
+        other2: "Base cabinet has 18” deep shelves",
+        other3: "4 ½” height solid wood toe kick in wood veneer natural finish",
+      },
+      {
+        name: "Finishing",
+        list: "Available in four finishes: White/ Grey/ Space Grey/ Navy Blue",
+        otherlist: "Natural wood interior",
+        otherlistTwo: "",
+        other2: "",
+        other3: "",
+      },
+    ],
   },
   {
     id: "12637wuiwuw",
-    image: img12,
+    image: img1,
     name: "Modern / Syncron",
     new: "",
     class: "opacity",
     vector: v2,
     images: [
       {
-        image: img1,
+        image: p1,
         name: "Ida02",
       },
       {
-        image: img10,
+        image: p2,
         name: "GIda03",
       },
       {
-        image: img11,
+        image: p3,
         name: "Luxy Blanco",
       },
       {
-        image: img12,
+        image: p4,
+        name: "Luxy Basalto",
+      },
+      {
+        image: p5,
+        name: "Luxy Basalto",
+      },
+      {
+        image: p6,
+        name: "Luxy Basalto",
+      },
+      {
+        image: p7,
+        name: "Luxy Basalto",
+      },
+      {
+        image: p8,
+        name: "Luxy Basalto",
+      },
+      {
+        image: p9,
+        name: "Luxy Basalto",
+      },
+      {
+        image: p10,
+        name: "Luxy Basalto",
+      },
+      {
+        image: p11,
+        name: "Luxy Basalto",
+      },
+      {
+        image: p12,
+        name: "Luxy Basalto",
+      },
+      {
+        image: p13,
         name: "Luxy Basalto",
       },
     ],
@@ -160,11 +248,49 @@ export const all__products = [
     and high-quality materials.The color scheme tends to be neutral or
     monochromatic, with the occasional pop of bold color.Overall, it is all about
     creating a minimalist, yet stylish and functional space.`,
+    specification: [
+      {
+        name: "Door",
+        list: "Wood particle base board coated with decorative paper on both sides.",
+        otherlist: "",
+        otherlistTwo: "",
+        other2: "",
+        other3: "",
+      },
+      {
+        name: " Box",
+        list: "six-way adjustable soft close hinge",
+        otherlist:
+          "¾” thick plywood shelve, with melamine laminate on both sides",
+        otherlistTwo: "back panel with plywood frame",
+        other2: "¾” thick side panel, with melamine laminate on both sides",
+        other3: "5/8” thick plywood bottom panel and end panel of drawers",
+      },
+      {
+        name: " Drawer",
+        list: "5-piece recessed panel drawer fronts",
+        otherlist:
+          "5/8” solid aspen wood drawer box with dovetail construction",
+        otherlistTwo: "Full extension concealed drawer runners",
+        other2: "",
+        other3: "",
+      },
+
+      {
+        name: "Finishing",
+        list: "Available in 13 finishes: Ice Cream 01/Ice Cream 02/ Ice Cream 03/ Ice Cream 04/ Ida 01/ Ida 02/ Ida 03/ Ida 04/ Nocce 03/ Olmo 01/ Olmo 02/ Roble Muratti 04",
+        otherlist: "Natural wood interior",
+        otherlistTwo: "",
+        other2: "",
+        other3: "",
+      },
+    ],
   },
+
   {
     id: ` 122dsn2526a`,
-    image: img5,
-    name: "Classic Style ",
+    image: img12,
+    name: "Modern / Zenit",
     new: "NEW",
     class: "",
     vector: v3,
@@ -180,11 +306,55 @@ export const all__products = [
     The color palette is usually warm and inviting, with rich, natural tones. Overall, a
     classic style kitchen is all about creating a space that is both beautiful and
     functional, with a focus on quality craftsmanship and attention to detail.`,
+    specification: [
+      {
+        name: "Door",
+        list: "Full overlay door with mortise and tenon construction",
+        otherlist: "¾” Solid wood door frames with 3/8” MDF center panel",
+        otherlistTwo:
+          "Soft-close mechanism integrated in concealed six-way adjustable hinges",
+        other2: "",
+        other3: "",
+      },
+      {
+        name: "Drawer Box",
+        list: "5-piece recessed panel drawer fronts",
+        otherlist: "5/8’’ solid birch drawer box with dovetail construction",
+        otherlistTwo: "Full extension concealed drawer runners",
+        other2: "",
+        other3: "",
+      },
+      {
+        name: "Drawer Box",
+        list: "5-piece recessed panel drawer fronts",
+        otherlist: "5/8’’ solid birch drawer box with dovetail construction",
+        otherlistTwo: "Full extension concealed drawer runners",
+        other2: "",
+        other3: "",
+      },
+      {
+        name: "Box",
+        list: "Dovetail construction",
+        otherlist: "½” select birch plywood construction",
+        otherlistTwo:
+          "¾” adjustable shelves edge-banded in wood veneer natural finish",
+        other2: "Base cabinet has 18” deep shelves",
+        other3: "4 ½” height solid wood toe kick in wood veneer natural finish",
+      },
+      {
+        name: "Finishing",
+        list: "Available in four finishes: White/ Grey/ Space Grey/ Navy Blue",
+        otherlist: "Natural wood interior",
+        otherlistTwo: "",
+        other2: "",
+        other3: "",
+      },
+    ],
   },
   {
     id: `122362317771227gghas122`,
-    image: img9,
-    name: "Vanity / Shaker",
+    image: img2,
+    name: "Classic Style",
     new: "NEW",
     class: "",
     vector: v1,
@@ -210,6 +380,198 @@ export const all__products = [
     to create a timeless and classic look that is also modern and up-to-date. This
     style combines classic details like raised panel cabinets and ornate moldings with
     sleek, clean lines and modern finishes.`,
+    specification: [
+      {
+        name: "Door",
+        list: "Full overlay door with mortise and tenon construction",
+        otherlist: "¾” Solid wood door frames with 3/8” MDF center panel",
+        otherlistTwo:
+          "Soft-close mechanism integrated in concealed six-way adjustable hinges",
+        other2: "",
+        other3: "",
+      },
+      {
+        name: "Drawer Box",
+        list: "5-piece recessed panel drawer fronts",
+        otherlist: "5/8’’ solid birch drawer box with dovetail construction",
+        otherlistTwo: "Full extension concealed drawer runners",
+        other2: "",
+        other3: "",
+      },
+      {
+        name: "Drawer Box",
+        list: "5-piece recessed panel drawer fronts",
+        otherlist: "5/8’’ solid birch drawer box with dovetail construction",
+        otherlistTwo: "Full extension concealed drawer runners",
+        other2: "",
+        other3: "",
+      },
+      {
+        name: "Box",
+        list: "Dovetail construction",
+        otherlist: "½” select birch plywood construction",
+        otherlistTwo:
+          "¾” adjustable shelves edge-banded in wood veneer natural finish",
+        other2: "Base cabinet has 18” deep shelves",
+        other3: "4 ½” height solid wood toe kick in wood veneer natural finish",
+      },
+      {
+        name: "Finishing",
+        list: "Available in four finishes: White/ Grey/ Space Grey/ Navy Blue",
+        otherlist: "Natural wood interior",
+        otherlistTwo: "",
+        other2: "",
+        other3: "",
+      },
+    ],
+  },
+  {
+    id: `122362317771227gghas122sjsjs`,
+    image: img111,
+    name: "Vanity Shaker",
+    new: "NEW",
+    class: "",
+    vector: v1,
+    images: [
+      {
+        image: img7,
+        name: "Gray",
+      },
+      {
+        image: img6,
+        name: "White",
+      },
+      {
+        image: img2,
+        name: "Navy Blue",
+      },
+      {
+        image: img3,
+        name: "Space Grey",
+      },
+    ],
+    details: `A transitional style kitchen blends traditional and contemporary design elements
+    to create a timeless and classic look that is also modern and up-to-date. This
+    style combines classic details like raised panel cabinets and ornate moldings with
+    sleek, clean lines and modern finishes.`,
+    specification: [
+      {
+        name: "Door",
+        list: "Full overlay door with mortise and tenon construction",
+        otherlist: "¾” Solid wood door frames with 3/8” MDF center panel",
+        otherlistTwo:
+          "Soft-close mechanism integrated in concealed six-way adjustable hinges",
+        other2: "",
+        other3: "",
+      },
+      {
+        name: "Drawer Box",
+        list: "5-piece recessed panel drawer fronts",
+        otherlist: "5/8’’ solid birch drawer box with dovetail construction",
+        otherlistTwo: "Full extension concealed drawer runners",
+        other2: "",
+        other3: "",
+      },
+      {
+        name: "Drawer Box",
+        list: "5-piece recessed panel drawer fronts",
+        otherlist: "5/8’’ solid birch drawer box with dovetail construction",
+        otherlistTwo: "Full extension concealed drawer runners",
+        other2: "",
+        other3: "",
+      },
+      {
+        name: "Box",
+        list: "Dovetail construction",
+        otherlist: "½” select birch plywood construction",
+        otherlistTwo:
+          "¾” adjustable shelves edge-banded in wood veneer natural finish",
+        other2: "Base cabinet has 18” deep shelves",
+        other3: "4 ½” height solid wood toe kick in wood veneer natural finish",
+      },
+      {
+        name: "Finishing",
+        list: "Available in four finishes: White/ Grey/ Space Grey/ Navy Blue",
+        otherlist: "Natural wood interior",
+        otherlistTwo: "",
+        other2: "",
+        other3: "",
+      },
+    ],
+  },
+  {
+    id: `122362317771227gghas122sjsjs`,
+    image: img13,
+    name: "Modern Luxe",
+    new: "NEW",
+    class: "",
+    vector: v1,
+    images: [
+      {
+        image: img7,
+        name: "Gray",
+      },
+      {
+        image: img6,
+        name: "White",
+      },
+      {
+        image: img2,
+        name: "Navy Blue",
+      },
+      {
+        image: img3,
+        name: "Space Grey",
+      },
+    ],
+    details: `A transitional style kitchen blends traditional and contemporary design elements
+    to create a timeless and classic look that is also modern and up-to-date. This
+    style combines classic details like raised panel cabinets and ornate moldings with
+    sleek, clean lines and modern finishes.`,
+    specification: [
+      {
+        name: "Door",
+        list: "Full overlay door with mortise and tenon construction",
+        otherlist: "¾” Solid wood door frames with 3/8” MDF center panel",
+        otherlistTwo:
+          "Soft-close mechanism integrated in concealed six-way adjustable hinges",
+        other2: "",
+        other3: "",
+      },
+      {
+        name: "Drawer Box",
+        list: "5-piece recessed panel drawer fronts",
+        otherlist: "5/8’’ solid birch drawer box with dovetail construction",
+        otherlistTwo: "Full extension concealed drawer runners",
+        other2: "",
+        other3: "",
+      },
+      {
+        name: "Drawer Box",
+        list: "5-piece recessed panel drawer fronts",
+        otherlist: "5/8’’ solid birch drawer box with dovetail construction",
+        otherlistTwo: "Full extension concealed drawer runners",
+        other2: "",
+        other3: "",
+      },
+      {
+        name: "Box",
+        list: "Dovetail construction",
+        otherlist: "½” select birch plywood construction",
+        otherlistTwo:
+          "¾” adjustable shelves edge-banded in wood veneer natural finish",
+        other2: "Base cabinet has 18” deep shelves",
+        other3: "4 ½” height solid wood toe kick in wood veneer natural finish",
+      },
+      {
+        name: "Finishing",
+        list: "Available in four finishes: White/ Grey/ Space Grey/ Navy Blue",
+        otherlist: "Natural wood interior",
+        otherlistTwo: "",
+        other2: "",
+        other3: "",
+      },
+    ],
   },
 ];
 
