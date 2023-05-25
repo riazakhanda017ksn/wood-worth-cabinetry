@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6bada73b.css",
-    "main.js": "/static/js/main.89ec6629.js",
+    "main.css": "/static/css/main.b59535c2.css",
+    "main.js": "/static/js/main.d68ac594.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/pexels-curtis-adams-4469409-1280x720-30fps.mp4": "/static/media/pexels-curtis-adams-4469409-1280x720-30fps.c1c214e4ec26cb6b4f42.mp4",
     "static/media/vvv.mp4": "/static/media/vvv.feae00c154e2bba0967c.mp4",
@@ -12,11 +12,13 @@
     "static/media/105.avif": "/static/media/105.ff27860f979df99146ee.avif",
     "static/media/d5.avif": "/static/media/d5.b85b4f55750d546a6ded.avif",
     "static/media/d7.avif": "/static/media/d7.11903eba964e6152de35.avif",
+    "static/media/FCS0065.jpg": "/static/media/FCS0065.fceabe9a0416c70ebdfa.jpg",
     "static/media/103.avif": "/static/media/103.0ea1e296102af7ed5454.avif",
     "static/media/aab62ea3-8a3f-4798-8946-59b2aad147fc_custom-color-home-page-banner-1910x600-2.avif": "/static/media/aab62ea3-8a3f-4798-8946-59b2aad147fc_custom-color-home-page-banner-1910x600-2.c71a6a014b5e761f540f.avif",
     "static/media/p10.png": "/static/media/p10.d23c800edf7cf242355d.png",
     "static/media/r1.jpg": "/static/media/r1.5e4d9bd85a1bdd818f3f.jpg",
     "static/media/p111.png": "/static/media/p111.fea1d1ab63251f1281cb.png",
+    "static/media/1jjjjj.jpg": "/static/media/1jjjjj.1b49af800216b3d699b8.jpg",
     "static/media/v2.jpg": "/static/media/v2.0ad5652da538a8fff733.jpg",
     "static/media/8.jpg": "/static/media/8.5c5a384947af49bebb02.jpg",
     "static/media/p77.png": "/static/media/p77.944af841329cfaffb125.png",
@@ -45,9 +47,12 @@
     "static/media/123456.jpg": "/static/media/123456.7f988ee4be01790340ff.jpg",
     "static/media/m1.jpg": "/static/media/m1.2bcd88e89a2dc78d9300.jpg",
     "static/media/m10.jpg": "/static/media/m10.500cd3a939eb923b89dd.jpg",
+    "static/media/loginnnnn.jpg": "/static/media/loginnnnn.b9de7568a0741eb5f1c3.jpg",
+    "static/media/loves.jpg": "/static/media/loves.93c4b82b654a1001d0c9.jpg",
     "static/media/p222.png": "/static/media/p222.1f356993b159d9d9ff9b.png",
     "static/media/p22.jpg": "/static/media/p22.fbf2188ecb075a59aff6.jpg",
     "static/media/ddd.jpg": "/static/media/ddd.1dddc6276ca4dd94a864.jpg",
+    "static/media/othersss.jpg": "/static/media/othersss.c17a7573da8296fe9627.jpg",
     "static/media/p11.png": "/static/media/p11.ee7b79f9434609339f37.png",
     "static/media/2.jpg": "/static/media/2.5c5a384947af49bebb02.jpg",
     "static/media/m12.jpg": "/static/media/m12.d882d4c12dfcd6ea8f34.jpg",
@@ -65,7 +70,6 @@
     "static/media/m5.jpg": "/static/media/m5.10fad4a81188863afffe.jpg",
     "static/media/p44.png": "/static/media/p44.5938266a4d7621e19ffc.png",
     "static/media/p10.jpg": "/static/media/p10.a5e29f220958beb76fec.jpg",
-    "static/media/Capture-removebg-preview.png": "/static/media/Capture-removebg-preview.70d4ff4f4e73f8618ac1.png",
     "static/media/m7.jpg": "/static/media/m7.8b9397a1c329984a06b5.jpg",
     "static/media/m8.jpg": "/static/media/m8.ffd0fe6ec6b9f670e62b.jpg",
     "static/media/p2.jpg": "/static/media/p2.fdda60d6a1b6deb11113.jpg",
@@ -93,7 +97,6 @@
     "static/media/Fusion_Kona.avif": "/static/media/Fusion_Kona.04e43023bfad280207d7.avif",
     "static/media/p88.png": "/static/media/p88.5258b6e29da350678e5d.png",
     "static/media/Nexus_Frost.avif": "/static/media/Nexus_Frost.fff29d026a5bfc66021c.avif",
-    "static/media/12222222222.avif": "/static/media/12222222222.9ddcb8b471e27cf1fd09.avif",
     "static/media/other-banner.avif": "/static/media/other-banner.5b75ee93fbc53fdbf2fc.avif",
     "static/media/11efd97e-dd98-41af-a2c1-5ff31428e57c_dealers.avif": "/static/media/11efd97e-dd98-41af-a2c1-5ff31428e57c_dealers.097118e72e4c6a8efa5e.avif",
     "static/media/ww_logo_200x180.png": "/static/media/ww_logo_200x180.8974a9e7202f054764fe.png",
@@ -103,12 +106,12 @@
     "static/media/v1.png": "/static/media/v1.fedb20b8e2dda2bbafb7.png",
     "static/media/v3.png": "/static/media/v3.dd17bc303365ad5319a1.png",
     "index.html": "/index.html",
-    "main.6bada73b.css.map": "/static/css/main.6bada73b.css.map",
-    "main.89ec6629.js.map": "/static/js/main.89ec6629.js.map",
+    "main.b59535c2.css.map": "/static/css/main.b59535c2.css.map",
+    "main.d68ac594.js.map": "/static/js/main.d68ac594.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bada73b.css",
-    "static/js/main.89ec6629.js"
+    "static/css/main.b59535c2.css",
+    "static/js/main.d68ac594.js"
   ]
 }

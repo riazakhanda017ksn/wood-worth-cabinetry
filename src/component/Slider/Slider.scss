@@ -1,8 +1,9 @@
 .slide-one{
-    background: url(../../images/12222222222.avif)no-repeat;
+    background: url(../../images/FCS0065.jpg)no-repeat;
     background-size: cover;
     height: 65vh;
     padding: 70px 0;
+    background-position: center;
 }
 .slide-two{
     background: url(../../images/2nd.avif)no-repeat;
@@ -78,12 +79,12 @@
 
 .content button {
     background: none;
-    padding: 22px 23px!important;
+    padding: 22px 23px !important;
     font-size: 10px;
     color: #ffffff;
     margin-top: 20px;
     position: relative;
-    background: black;
+    background: #CC8A3F;
     border: none;
     width: 230px;
     text-align: left;
@@ -91,19 +92,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid #CC8A3F;
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: .3s ease-in-out;
 }
-
 .content button svg{
     font-size: 20px;
 }
 
 .content button:hover{
     background: none;
-    color: black;
+    color: #CC8A3F;
 }
 
 .content{
@@ -175,4 +175,18 @@ a{
     margin-bottom: 1rem;
     margin-left: 15%;
     list-style: none;
+}
+
+.content h2 {
+    color: #CC8A3F;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.content h3 {
+    font-style: initial;
+    margin-top: 10px;
+    color: #CC8A3F;
+    font-weight: 700;
+    font-size: 40px;
 }

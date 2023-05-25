@@ -20,9 +20,9 @@ const BecomeDealer = () => {
             >
               <h2>Become a Wood Worth Cabinetry Dealer</h2>
               <p>
-                The family of Fabuwood dealers is growing fast. Join the
-                thousands of dealers that offer Fabuwood Kitchens in their
-                showrooms nationwide.
+                The family of Wood Worth Cabinetry dealers is growing fast. Join
+                the thousands of dealers that offer FWood Worth Cabinetry
+                Kitchens in their showrooms nationwide.
               </p>
               <div className="sign-up-btn">
                 <Link to="/became-a-dealer">

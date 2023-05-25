@@ -79,10 +79,8 @@ const Slider = () => {
           <div className="carousel-item active slide-one">
             <div className="container flex-box">
               <div className="content">
-                <h1>
-                  GALAXY <span>Timber</span>
-                </h1>
-                <h3>Natural Charm with Modern Elegance</h3>
+                <h2>MAKE WOODWORTH</h2>
+                <h3>PART OF THE FAMILY</h3>
                 <br />
                 <Link to="/cabinets">
                   <button>

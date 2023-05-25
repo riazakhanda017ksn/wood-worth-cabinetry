@@ -21,7 +21,7 @@ const Visualize = () => {
           </button>
         </Link>
 
-        <Link to="/cabinets">
+        {/* <Link to="/cabinets">
           <button>
             {" "}
             gallery{" "}
@@ -30,7 +30,7 @@ const Visualize = () => {
               <BsArrowRight />{" "}
             </span>
           </button>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

@@ -11,9 +11,7 @@ const Cabinet = () => {
         <div className="quality-caption">
           <span></span>
           <div className="text">
-            <h3>
-              NEW <br /> STYLES
-            </h3>
+            <h3>NEW STYLES</h3>
           </div>
           <span></span>
         </div>

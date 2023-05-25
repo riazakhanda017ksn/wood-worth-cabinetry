@@ -1,26 +1,41 @@
 import React from "react";
 import "./QualityRedefined.scss";
 import { BsArrowRight } from "react-icons/bs";
-import img from "../../images/Capture-removebg-preview.png";
+import img from "../../images/loves.jpg";
+import img2 from "../../images/othersss.jpg";
+import img3 from "../../images/loginnnnn.jpg";
 import { Link } from "react-router-dom";
 
 const QualityRedefined = () => {
+  const arrays = [
+    {
+      name: "BECOME A DEALER",
+      post: "To start, fill out the Dealer Application Form with your personal details and company information, and press Submit for our team to review.",
+      image: img,
+      id: 1,
+    },
+    {
+      name: "LOG IN",
+      post: `Once our team accepts your Dealer Application, log in to our WLink System with your email and password.
+      This is where you can check out our inventory, and make an order right away by clicking “Add to your quotation”.
+      `,
+      image: img2,
+      id: 2,
+    },
+    {
+      name: "DELIVERY & PICKUP",
+      post: `Now that you’ve made an order, our team will be ready with your pick-up or delivery in a week. Within the GTA, deliveries are free and expedited by our professional delivery logistics team. You can rest assured that your products are packaged and shipped safely to your location.”.
+      `,
+      image: img3,
+      id: 3,
+    },
+  ];
   return (
     <div
       className="QualityRedefined padding mb-5"
       style={{ overflowX: "hidden" }}
     >
       <div className="container">
-        <div className="quality-caption">
-          <span></span>
-          <div className="text">
-            <h3>
-              Quality <br /> Redefined
-            </h3>
-          </div>
-          <span></span>
-        </div>
-
         <div className="q12-intro_liner">
           <div className="liner">
             <div className="liner_container">
@@ -40,15 +55,7 @@ const QualityRedefined = () => {
               data-aos="fade-right"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
-            >
-              <img
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-out"
-                src={img}
-                alt=""
-              />
-            </div>
+            ></div>
           </div>
           <div className="col-lg-6">
             <div
@@ -63,7 +70,9 @@ const QualityRedefined = () => {
                 </h1>
                 <h3>years of quality service</h3>
               </div>
-              <h3>in CABINETRY</h3>
+              <h3>
+                in <span className="specifiq-color">CABINETRY</span>{" "}
+              </h3>
               <p>
                 Woodworth Cabinetry is a primary manufacturer and distributor,
                 specializing in making a house, a home. We offer high-quality
@@ -110,32 +119,35 @@ const QualityRedefined = () => {
         {/*  */}
 
         {/* others rows */}
-        <div
-          className="row pt-5 space"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-        >
-          <div className="col-lg-6">
-            <div className="kitchen-caption">
-              <h1>
-                Bring your <span> ideal</span>{" "}
-              </h1>
-              <h1>
-                kitchen to<span> life.</span>
-              </h1>
-            </div>
+        <div className="container">
+          <div className="quality-cabinet py-5 my-4">
+            <h1>CABINETRY MADE EASY WITH US</h1>
+            <p>
+              Life’s too short for unnecessary complications. With Woodworth
+              Cabinetry, getting started couldn’t be easier.
+            </p>
+            <h5> Just follow our three-step process:</h5>
           </div>
-          <div className="col-lg-6">
-            <div className="kitchen-text">
-              <p>
-                Curious to see how all of your favorite kitchen items will look
-                together? Let your imagination reach new heights while you
-                preview appliances, cabinetry and other kitchen components all
-                on your computer. Our visualizer tool is not only easy to use,
-                it’s fun to experiment with.
-              </p>
-            </div>
+
+          {/*  */}
+          <div className="quality-defender-border"></div>
+          <div className="row">
+            {arrays.map((arr) => {
+              return (
+                <div className="col-lg-4" key={arr.id}>
+                  <div className="number text-center">
+                    <span>{arr.id}</span>
+                  </div>
+                  <div className="array-content">
+                    <div className="images___array">
+                      <img src={arr.image} alt="" />
+                    </div>
+                    <h4>{arr.name}</h4>
+                    <p>{arr.post}</p>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
 

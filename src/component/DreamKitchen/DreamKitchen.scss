@@ -11,6 +11,9 @@
     font-size: 31px;
     margin-bottom: 35px;
     text-align: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #CC8A3E;
 }
 .DreamKitchen button {
     padding: 15px 100px;
@@ -19,10 +22,11 @@
     background: none;
     font-weight: 600;
     transition: .3s ease-in-out;
-    border: 2px solid black;
+    border: 2px solid #CC8A3E;
+    color: #CC8A3E;
 }
 .DreamKitchen button:hover{
-    background: black;
+    background: #CC8A3E;
     color: white;
 }
 

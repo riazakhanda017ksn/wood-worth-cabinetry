@@ -1,9 +1,9 @@
+
 .home {
     padding: 45px;
-    background: black;
+    background: #CC8A3E;
     color: #FFF;
 }
-
 .home h3{
     font-size: 20px;
     font-weight: 700;
@@ -21,10 +21,18 @@
 }
 .kitchen {
     padding: 45px;
-    background: #F1F1F1;
-    color: #000000;
+    background: #6B4725;
+    color: white;
 }
 
+.cabinet-text h1,h3{
+   
+    color: #5B3C1F;
+}
+.specifiq-color {
+    font-weight: 700;
+    font-size: 30px;
+}
 .kitchen h3{
     font-size: 20px;
     font-weight: 700;

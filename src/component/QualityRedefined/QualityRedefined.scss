@@ -76,7 +76,7 @@
         color: #ffffff;
         margin-top: 10px;
         position: relative;
-        background: black;
+        background: #CC8A3E;
         border: none;
         width: 230px;
         text-align: left;
@@ -84,13 +84,13 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border: 1px solid black;
+        border: 1px solid #CC8A3E;
         text-transform: uppercase;
         letter-spacing: 1px;
         &:hover{
             background: none;
             transition: .3s ease-in-out;
-            color:black
+            color:#CC8A3E
 
         }
     }
@@ -260,4 +260,97 @@
         position: relative;
         bottom: 8px;
         font-size: 26px;
+    }
+
+    .home h3 {
+        color: white !important;
+    }
+    .kitchen h3 {
+        font-size: 20px;
+        font-weight: 700;
+        color: white !important;
+    }
+    .specifiq-color {
+        font-weight: 700;
+        font-size: 30px;
+        color: #CC8A3E;
+    }
+
+    .quality-cabinet {
+        text-align: center;
+        padding-top: 30px;
+    }
+    .quality-cabinet h1 {
+        color: #CC8A3E;
+        font-weight: 800;
+        font-size: 29px;
+        letter-spacing: 2px;
+    }
+    .quality-cabinet p {
+        margin-bottom: 7px;
+        font-size: 16px;
+    }
+    .quality-cabinet {
+        text-align: center;
+        padding-top: 30px;
+    }
+    .array-content img {
+        width: 51px;
+    }
+
+    .array-content {
+        text-align: center;
+        background: #ebebeb;
+        padding: 38px;
+        height: 65vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .images___array {
+        width: 90px;
+        background: white;
+        height: 90px;
+        line-height: 90px;
+        text-align: center;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .array-content h4 {
+        margin: 10px 0;
+        font-size: 20px;
+        font-weight: 700;
+        color: #CC8A3E;
+    }
+
+    .array-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+
+    .number span {
+        width: 65px;
+        height: 65px;
+        background: #CC8A3E;
+        display: inline-block;
+        line-height: 65px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 40px;
+        z-index: 999 !important;
+        position: relative;
+    }
+
+    .quality-defender-border {
+        border: 2px solid #CC8A3E;
+        margin: 0 173px;
+        position: relative;
+        top: 35px;
+        z-index: 1;
     }

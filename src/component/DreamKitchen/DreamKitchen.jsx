@@ -10,7 +10,7 @@ const DreamKitchen = () => {
       data-aos-duration="1000"
       data-aos-easing="ease-in-out"
     >
-      <h1>Your dream kitchen awaits.</h1>
+      <h1>BECAME A WOODWORTH DEALER</h1>
       <Link to="/contact">
         <button>Locate a Wood Worth dealer</button>
       </Link>
