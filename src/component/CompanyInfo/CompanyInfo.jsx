@@ -18,7 +18,7 @@ const CompanyInfo = () => {
       <div className="company-info"></div>
       <div
         className="QualityRedefined padding more-class"
-        style={{ overflow: "hidden", paddingBottom: "150px" }}
+        style={{ overflow: "hidden", paddingBottom: "80px" }}
       >
         <div className="container">
           {/* rows */}
@@ -92,7 +92,7 @@ const CompanyInfo = () => {
           <div className="row pt-5 mt-5">
             {companyData.map((data) => {
               return (
-                <div className="col-lg-4 my-5" key={data.id}>
+                <div className="col-lg-4" key={data.id}>
                   <div
                     className="company"
                     data-aos="fade-up"

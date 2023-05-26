@@ -31,13 +31,13 @@ const Footer = () => {
           </div> */}
           <div className="col-lg-3">
             <div className="about-us need-space">
-              <h5>ALL DOOR STYLE</h5>
+              <h5>PRODUCTS</h5>
               <ul>
                 <li>
-                  <Link to="/cabinets">CABINETS</Link>
+                  <Link to="/all-door">ALL DOOR STYLE</Link>
                 </li>
                 <li>
-                  <Link to="/all-door">DOOR</Link>
+                  <Link to="/">CABINET</Link>
                 </li>
                 <li>
                   <Link to="/vanities">VANITIES</Link>
@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
           <div className="col-lg-3">
             <div className="about-us need-space">
-              <h5>CONTACT US</h5>
+              <h5>USEFUL LINK</h5>
               <ul>
                 <li>
                   <Link to="/">LOCATED A DEALER</Link>
@@ -56,26 +56,23 @@ const Footer = () => {
                   <Link to="/became-a-dealer">BECAME A DEALER</Link>
                 </li>
                 <li>
-                  <Link to="/cabinets">CONTACT US</Link>
+                  <Link to="/warranty">WARRANTY</Link>
+                </li>
+                <li>
+                  <Link to="/">DOWNLOAD 2023 CATALOGUE</Link>
                 </li>
               </ul>
             </div>
           </div>
           <div className="col-lg-2">
             <div className="about-us need-space">
-              <h5>USEFUL LINK</h5>
+              <h5>CONTACT US</h5>
               <ul>
-                <li>
-                  <Link to="/">HOME</Link>
-                </li>
                 <li>
                   <Link to="/about-us">ABOUT US</Link>
                 </li>
                 <li>
                   <Link to="/company-info">CONTACT US</Link>
-                </li>
-                <li>
-                  <Link to="/warranty">WARRANTY</Link>
                 </li>
                 <li>
                   <Link to="/company-info">COMPANY INFO</Link>

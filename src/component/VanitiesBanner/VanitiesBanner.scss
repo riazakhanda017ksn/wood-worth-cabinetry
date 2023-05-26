@@ -38,7 +38,8 @@
     display: inline-block;
 }
 .vanities-img p {
-    font-size: 14px;
+    font-size: 16px;
+    margin-top: 13px;
 }
 
 .color-navbar {
@@ -96,13 +97,18 @@
     }
 
     .gray-bg h5 {
-        font-size: 22px;
-        margin-top: 15px;
+        font-size: 26px;
+        margin-top: 42px;
         font-weight: 600;
         letter-spacing: 1px;
     }
 
     .gray-bg p {
         margin: 15px 0;
-        font-size: 15px;
+        font-size: 17px;
+    }
+
+    .vanities-images h6 {
+        font-size: 20px !important;
+        margin-top: 7px !important;
     }

@@ -1,5 +1,5 @@
 .visualize{
-    background: url(../../images/other-banner.avif)no-repeat fixed;
+    background:linear-gradient(rgba(0, 0, 0, 0.425),#00000069), url(../../images/visu.jpg)no-repeat fixed;
     background-size: cover;
     height: 100vh;
     background-position: center center;
@@ -7,15 +7,23 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    color: white;
+    padding: 20px
 }
 
+.visualize h1  {
+    
+    font-size: 55px;
+font-weight: 600;
+}
 .visualize h1 span {
     font-style: italic;
-    font-size: 45px;
+    font-size: 55px;
+    
 }
 
 .visualize-btn-group{
-    margin-top: 100px;
+    margin-top: 30px !important;
     display: flex;
 }
 

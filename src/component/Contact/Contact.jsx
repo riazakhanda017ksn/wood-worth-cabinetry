@@ -12,7 +12,7 @@ const Contact = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-1"></div>
-          <div className="col-lg-10 py-5 ">
+          <div className="col-lg-10 pt-5 ">
             <div
               className="contact-form "
               data-aos="fade-up"

@@ -15,7 +15,7 @@ const DoorDetails = () => {
   return (
     <div className="door-details">
       <Navbar />
-      <div className="container py-5 my-5">
+      <div className="container pt-5 mt-5 mb-3">
         <div className="row">
           <div className="col-lg-7">
             <div className="details">
@@ -29,17 +29,10 @@ const DoorDetails = () => {
           <div className="col-lg-1"></div>
           <div className="col-lg-4 text-center">
             <div className="need-product-bg">
-              <div
-                className="details-image"
-                style={{
-                  background: `url(${image})`,
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "contain",
-                  height: "80vh",
-                  width: "100%",
-                  backgroundPosition: "right",
-                }}
-              ></div>
+              <div className="details-image">
+                <img src={image} alt="" />
+                <h5>{name}</h5>
+              </div>
             </div>
           </div>
         </div>
@@ -54,7 +47,7 @@ const DoorDetails = () => {
         >
           <div className="col-lg-6">
             <div className="description">
-              <h3>SPECIFICATION</h3>
+              <h3>SPECIFICATION:</h3>
               {/* my toggle app */}
               {specification.map((item) => (
                 <Data item={item}></Data>
@@ -70,10 +63,9 @@ const DoorDetails = () => {
           <div className="col-lg-1"></div>
           <div className="col-lg-5">
             <div className="more-img">
-              <h4>
-                {" "}
-                {name} style: ({images.length} COLORS)
-              </h4>
+              <h3 className="mb-4" style={{ fontWeight: "500" }}>
+                COLORS:
+              </h3>
               <div
                 className="row"
                 data-aos="fade-right"
@@ -83,10 +75,15 @@ const DoorDetails = () => {
                 {images.map((img) => {
                   return (
                     <>
-                      <div className="col-lg-4 mt-4">
+                      <div
+                        className={
+                          images.length === 4
+                            ? "col-lg-4 mb-4"
+                            : "col-lg-3 mb-4"
+                        }
+                      >
                         <div className="mapped-images">
                           <img src={img.image} alt="" />
-                          <h6 className="mt-3"> {img.name}</h6>
                         </div>
                       </div>
                     </>

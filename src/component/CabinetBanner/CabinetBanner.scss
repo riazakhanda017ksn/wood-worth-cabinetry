@@ -3,12 +3,7 @@
     height: 100%;
 }
 
-.container-bg {
-    background: #F1F1F1;
-    padding: 51px;
-    margin: 10px;
-    margin: 60px 0;
-}
+
 
 .container-bg {
     background: #F1F1F1;
@@ -26,7 +21,7 @@
     margin: 0;
     background: black;
     color: white;
-    padding: 10px 20px;
+    padding: 15px;
     position: relative;
     bottom: 46px;
     font-weight: 600;
@@ -51,10 +46,10 @@
 
 .container-bg {
     background: #DCDCDC;
-    padding: 31px 22px;
-    margin: 60px 40px;
+    margin: 50px 0px;
     margin-bottom: 0px !important;
     padding-bottom: 20px;
+    padding-top: 40px !important;
 }
 
 .product-img {
@@ -125,7 +120,7 @@ a.link___{
     color: #ffffff;
     margin-top: 35px;
     position: relative;
-    background: black;
+    background: #CC8A3E;
     border: none;
     width: 330px;
     text-align: left;
@@ -133,7 +128,7 @@ a.link___{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid #CC8A3E;
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: .3s ease-in-out;
@@ -145,10 +140,34 @@ a.link___{
 
 .description button:hover{
     background: none;
-    color: black;
+    color: #CC8A3E;
 }
 
 .mapped-images img {
     width: 100%;
     height: 100%;
+}
+
+.padding-xy {
+    padding: 0 100px;
+}
+
+.container-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-background {
+    padding: 32px 36px;
+    background: #DCDCDC;
+    margin-top: 40px;
+}
+
+.container-background h6 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
 }

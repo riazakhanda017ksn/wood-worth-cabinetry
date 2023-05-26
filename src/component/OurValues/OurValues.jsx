@@ -32,11 +32,12 @@ const OurValues = () => {
             <div className="Quality mt-5">
               <h1>CUSTOMER ORIENTED</h1>
               <p>
-                We believe that quality should never be compromised. At
-                Fabuwood, we recognize that design is so much more than just the
-                appearance alone. That is why we diligently focus on quality
-                sourcing all components that make up our superior cabinets. At
-                Fabuwood, everything is tested – we leave nothing to chance.
+                We believe that quality should never be compromised. At wood
+                worth cabinetry, we recognize that design is so much more than
+                just the appearance alone. That is why we diligently focus on
+                quality sourcing all components that make up our superior
+                cabinets. At wood worth cabinetry, everything is tested – we
+                leave nothing to chance.
               </p>
             </div>
             <div className="Quality mt-5">

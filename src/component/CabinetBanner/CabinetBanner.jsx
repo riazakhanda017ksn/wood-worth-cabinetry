@@ -17,7 +17,7 @@ const CabinetBanner = () => {
           <span></span>
         </div>
         {/* row */}
-        <div className="row">
+        <div className="row padding-xy">
           {all__products.map((data) => {
             return (
               <div
@@ -28,17 +28,19 @@ const CabinetBanner = () => {
                 data-aos-easing="ease-in-out"
               >
                 <Link to={`${data.id}`} className="link___">
-                  <div className="container-bg">
+                  <div className="container-background">
                     <div
-                      style={{
-                        background: `url(${data.image})`,
-                        backgroundRepeat: "no-repeat",
-                        backgroundSize: "contain",
-                        width: "100%",
-                        padding: "180px 0",
-                        backgroundPosition: "center",
-                      }}
-                    ></div>
+                    // style={{
+                    //   background: `url(${data.image})`,
+                    //   backgroundRepeat: "no-repeat",
+                    //   backgroundSize: "contain",
+                    //   width: "100%",
+                    //   padding: "180px 0",
+                    //   backgroundPosition: "center",
+                    // }}
+                    >
+                      <img src={data.image} alt="" />
+                    </div>
                     <h6 className="text-center mt-3">{data.name}</h6>
                   </div>
                 </Link>

@@ -97,7 +97,7 @@ const Slider = () => {
           </div>
           <div className="carousel-item slide-two"></div>
           <div className="carousel-item slide-three">
-            <div className="content customization xyz">
+            {/* <div className="content customization xyz">
               <Link to="/about-us">
                 <button>
                   {" "}
@@ -108,13 +108,13 @@ const Slider = () => {
                   </span>{" "}
                 </button>
               </Link>
-            </div>
+            </div> */}
           </div>
           <div className="carousel-item slide-four"></div>
           <div className="carousel-item slide-five"></div>
           <div className="carousel-item slide-six"></div>
           <div className="carousel-item slide-seven">
-            <div className="content xyz">
+            {/* <div className="content xyz">
               <h1>
                 Nexus <span>Frost</span>
               </h1>
@@ -130,10 +130,10 @@ const Slider = () => {
                   </span>{" "}
                 </button>
               </Link>
-            </div>
+            </div> */}
           </div>
           <div className="carousel-item slide-eight">
-            <div className="content xyz">
+            {/* <div className="content xyz">
               <Link to="/cabinets">
                 <button>
                   {" "}
@@ -144,10 +144,10 @@ const Slider = () => {
                   </span>{" "}
                 </button>
               </Link>
-            </div>
+            </div> */}
           </div>
           <div className="carousel-item slide-nine">
-            <div className="content xyz">
+            {/* <div className="content xyz">
               <h1>
                 Fusion <span>Kona</span>
               </h1>
@@ -163,7 +163,7 @@ const Slider = () => {
                   </span>{" "}
                 </button>
               </Link>
-            </div>
+            </div> */}
           </div>
           <div className="carousel-item slide-ten"></div>
         </div>

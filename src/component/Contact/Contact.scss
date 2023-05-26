@@ -16,8 +16,8 @@
     .contact-form p {
         margin-top: 20px;
         line-height: 30px;
+        font-size: 18px;
     }
-
     .input-flex {
         display: flex;
         margin-bottom: 22px;
@@ -54,7 +54,7 @@
         color: #ffffff;
         margin-top: 10px;
         position: relative;
-        background: black;
+        background: #CC8A3E;
         border: none;
         width: 230px;
         text-align: left;
@@ -62,13 +62,13 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border: 1px solid black;
+        border: 1px solid #CC8A3E;
         text-transform: uppercase;
         letter-spacing: 1px;
         &:hover{
             background: none;
             transition: .3s ease-in-out;
-            color:black
+            color:#CC8A3E
 
         }
     }

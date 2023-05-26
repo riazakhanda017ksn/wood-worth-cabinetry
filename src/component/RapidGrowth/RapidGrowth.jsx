@@ -30,11 +30,12 @@ const RapidGrowth = () => {
             Our new headquarters is a one-million square foot state of the art
             production hub nestled on the Passaic River in Newark. It
             consolidates all four of our previous spaces into one
-            superstructure. With this extraordinary advancement, Fabuwood is
-            destined for exponential growth. The new building supports our
-            vision with spaces that intentionally foster a transparent
-            environment and encourage the enjoyment of discovery. This makes
-            Fabuwood a place where people are happy to come and innovate.
+            superstructure. With this extraordinary advancement, wood worth
+            cabinetry is destined for exponential growth. The new building
+            supports our vision with spaces that intentionally foster a
+            transparent environment and encourage the enjoyment of discovery.
+            This makes wood worth cabinetry a place where people are happy to
+            come and innovate.
           </p>
         </div>
         <div className="grow-bg"></div>

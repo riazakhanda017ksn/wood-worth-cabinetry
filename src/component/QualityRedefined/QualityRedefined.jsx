@@ -36,7 +36,7 @@ const QualityRedefined = () => {
       style={{ overflowX: "hidden" }}
     >
       <div className="container">
-        <div className="q12-intro_liner">
+        {/* <div className="q12-intro_liner">
           <div className="liner">
             <div className="liner_container">
               <div className="liner_box"></div>
@@ -46,7 +46,7 @@ const QualityRedefined = () => {
               <span className="liner_line"></span>
             </div>
           </div>{" "}
-        </div>
+        </div> */}
         {/* rows */}
         <div className="row margin-top">
           <div className="col-lg-5">
@@ -120,7 +120,7 @@ const QualityRedefined = () => {
 
         {/* others rows */}
         <div className="container">
-          <div className="quality-cabinet py-5 my-4">
+          <div className="quality-cabinet">
             <h1>CABINETRY MADE EASY WITH US</h1>
             <p>
               Life’s too short for unnecessary complications. With Woodworth

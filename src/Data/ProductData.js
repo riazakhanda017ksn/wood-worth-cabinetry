@@ -1,3 +1,23 @@
+// product image
+
+import product1 from "../images/product/1.jpg";
+import product2 from "../images/product/2.jpg";
+import product3 from "../images/product/3.jpg";
+import product4 from "../images/product/4.jpg";
+import product5 from "../images/product/5.jpg";
+import product6 from "../images/product/6.jpg";
+import product7 from "../images/product/7.jpg";
+import product8 from "../images/product/8.jpg";
+import product9 from "../images/product/9.jpg";
+import product10 from "../images/product/10.jpg";
+import product11 from "../images/product/11.jpg";
+import product12 from "../images/product/12.jpg";
+import product13 from "../images/product/13.jpg";
+import product14 from "../images/product/14.jpg";
+import product15 from "../images/product/15.jpg";
+import product16 from "../images/product/16.jpg";
+//
+
 import img1 from "../images/p11.jpg";
 import img111 from "../images/p11.png";
 import img2 from "../images/p22.jpg";
@@ -91,69 +111,84 @@ import h13 from "../img/13.jpg";
 export const productsData = [
   {
     id: 123,
-    image: h1,
+    image: product1,
     name: "Galaxy Timber",
   },
   {
     id: 126,
-    image: h2,
+    image: product2,
     name: "Luna Indigo",
   },
   {
     id: 122,
-    image: h3,
+    image: product3,
     name: "Catalina Bianco Gloss",
   },
   {
     id: 1223,
-    image: h4,
+    image: product4,
     name: "Catalina Bianco Gloss",
   },
   {
     id: 1223,
-    image: h5,
+    image: product5,
     name: "Catalina Bianco Mate",
   },
   {
     id: 1223,
-    image: h6,
+    image: product6,
     name: "Luna Indigo",
   },
   {
     id: 1223565,
-    image: h7,
+    image: product7,
     name: "Catalina Bianco Gloss",
   },
   {
     id: 1223565,
-    image: h8,
+    image: product8,
     name: "Galaxy Door",
   },
   {
     id: 1223565,
-    image: h9,
+    image: product9,
     name: "Luna Indigo",
   },
   {
     id: 1223565009,
-    image: h10,
+    image: product10,
+    name: "Galaxy Timber",
+  },
+  {
+    id: 12235650098,
+    image: product11,
+    name: "Galaxy Timber",
+  },
+  {
+    id: 12235650098112,
+    image: product12,
     name: "Galaxy Timber",
   },
 ];
 export const productsData2 = [
   {
     id: 12367782,
-    image: h11,
+    image: product13,
     name: "Galaxy Timber",
   },
   {
     id: 123677820999,
-    image: h12,
+    image: product14,
     name: "Luna Indigo",
   },
   {
     id: 123677820999,
-    image: h13,
+    image: product15,
+    name: "Galaxy Door",
+  },
+  {
+    id: 123677820999,
+    image: product16,
     name: "Galaxy Door",
   },
 ];

@@ -19,18 +19,17 @@ const Register = () => {
               data-aos-once="false"
             >
               <div className="text-for-dealers">
-                <h2>Become a Wood Worth Dealer</h2>
+                <h2>Become a Woodworth Dealer</h2>
                 <p>
-                  At Woodworth, we're committed to establishing enduring
-                  business partnerships with dealers worldwide. Besides
-                  providing a diverse selection of cabinet styles and
-                  accessories, along with a robust marketing approach, we offer
-                  one of the most user-friendly online ordering systems in the
-                  industry. If you're interested in becoming a part of the
-                  Woodworth family, please take a moment to fill out the form
-                  below. We're confident that our high-quality products,
-                  exceptional service, and streamlined ordering process will
-                  help you achieve success in your business endeavors
+                  At Woodworth Cabinetry, we&#39;re committed to establishing
+                  enduring business partnerships with dealers worldwide.
+                  Woodworth Cabinetry provides a diverse selection of cabinet
+                  styles and accessories. If you&#39;re interested in becoming a
+                  part of the Woodworth family, please take a moment to fill out
+                  the form below. We&#39;re confident that our high-quality
+                  products, exceptional service, and streamlined ordering
+                  process will help you achieve success in your business
+                  endeavors.
                 </p>
               </div>
 
@@ -78,7 +77,7 @@ const Register = () => {
                     <input type="text" required />
                   </div>
                   <div className="one-input">
-                    <p>Post Code*</p>
+                    <p>Postal Code*</p>
                     <input type="text" required />
                   </div>
                 </div>
@@ -96,7 +95,7 @@ const Register = () => {
 
                 <div className="input-flex">
                   <div className="one-input">
-                    <p>fax *</p>
+                    <p>fax </p>
                     <input type="number" required />
                   </div>
                   <div className="one-input">
@@ -106,7 +105,7 @@ const Register = () => {
                 </div>
                 <div className="input-flex">
                   <div className="one-input">
-                    <p>website *</p>
+                    <p>website </p>
                     <input type="text" required />
                   </div>
                   <div className="one-input"></div>

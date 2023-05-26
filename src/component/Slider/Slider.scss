@@ -6,58 +6,59 @@
     background-position: center;
 }
 .slide-two{
-    background: url(../../images/2nd.avif)no-repeat;
+    background: url(../../images/banner/2.jpg)no-repeat;
     background-size: cover;
     height: 65vh;
+    background-position: center;
 }
 .slide-three{
-    background: url(../../images/6d423070-f877-4568-92a4-48ff1c300707_LLW_homepage_v2.avif)no-repeat ;
+    background: url(../../images/banner/3.jpg)no-repeat ;
     background-size: cover;
     height: 65vh;
     background-position: right 25%;
     padding: 100px 190px;
 }
 .slide-four{
-    background: url(../../images/103.avif)no-repeat ;
+    background: url(../../images/banner/4.jpg)no-repeat ;
     background-size: cover;
     height: 65vh;
-    background-position: left 25%;
+    background-position: center
 }
 .slide-five{
-    background: url(../../images/105.avif)no-repeat ;
+    background: url(../../images/banner/5.jpg)no-repeat ;
     background-size: cover;
     height: 65vh;
-    background-position: right 25%;
+    background-position: center
 }
 .slide-six{
-    background: url(../../images/Banners_desktop.avif)no-repeat ;
+    background: url(../../images/banner/6.jpg)no-repeat ;
     background-size: cover;
     height: 65vh;
-    background-position: left 25%;
+    background-position: center
 }
 .slide-seven{
-    background: url(../../images/Nexus_Frost.avif)no-repeat ;
+    background: url(../../images/banner/7.jpg)no-repeat ;
     background-size: cover;
     height: 65vh;
-    background-position: left 25%;
+    background-position: center;
     padding: 100px;
 }
 .slide-eight{
-    background: url(../../images/homepage_2_desktop.avif)no-repeat ;
+    background: url(../../images/banner/8.jpg)no-repeat ;
     background-size: cover;
     height: 65vh;
-    background-position: right 25%;
+    background-position: center;
     padding: 140px;
 }
 .slide-nine{
-    background: url(../../images/Fusion_Kona.avif)no-repeat ;
+    background: url(../../images/banner/9.jpg)no-repeat ;
     background-size: cover;
     height: 65vh;
-    background-position: left 25%;
+    background-position: center;
     padding: 150px;
 }
 .slide-ten{
-    background: url(../../images/aab62ea3-8a3f-4798-8946-59b2aad147fc_custom-color-home-page-banner-1910x600-2.avif)no-repeat ;
+    background: url(../../images/banner/11.jpg)no-repeat ;
     background-size: cover;
     height: 65vh;
     background-position: center;
@@ -179,14 +180,13 @@ a{
 
 .content h2 {
     color: #CC8A3F;
-    font-size: 50px;
+    font-size: 56px;
     font-weight: 700;
 }
-
 .content h3 {
     font-style: initial;
     margin-top: 10px;
     color: #CC8A3F;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 50px;
 }

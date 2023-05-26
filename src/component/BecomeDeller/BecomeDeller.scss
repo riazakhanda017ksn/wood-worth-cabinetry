@@ -11,7 +11,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 70vh;
+        height: 65vh;
         background: #C8893E;
         color: white;
         padding: 163px;
@@ -27,12 +27,11 @@
     }
 
     .half-column p {
-        font-size: 18px;
+        font-size: 17px;
         color: #ffffff;
         line-height: 27px;
         font-weight: 400;
     }
-   
     .dealer-image img {
         width: 700px;
         height: 100%;
@@ -51,7 +50,7 @@
         // background-size: contain;
         // background-position: 50% 50%;
         background-repeat: no-repeat;
-        height: 70vh;
+        height: 65vh;
         width: 100%;
         object-fit: cover;
     }
@@ -61,8 +60,8 @@
     //     width: 121%;
     //     margin-top: -70px;
     // }
-    .styled{
-        margin-top: 100px;
+    .styled {
+        margin-top: 20px;
     }
     
 

@@ -52,18 +52,18 @@ input.width-for-input {
 .form-section_heading:before {
     content: '';
     display: block;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     background: #000104;
     margin-right: 15px;
 }
 .form-section_heading:after {
-    margin-left: 15px;
-    content: '';
+    background: none;
+    content: "";
     display: block;
-    height: 1px;
-    background: #000104;
     flex-grow: 1;
+    height: 1px;
+    margin-left: 15px;
 }
 
 .form-section_heading {
@@ -73,7 +73,7 @@ input.width-for-input {
     justify-content: center;
     font: normal 16px "AvenirNextLTPro-DemiCn",sans-serif;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: 3px;
     padding: 50px 0;
     font-weight: 600;

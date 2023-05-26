@@ -21,22 +21,15 @@ const Cabinet = () => {
             {productsData.map((data) => {
               return (
                 <div
-                  className="cabinet_dor mb-5"
+                  className="cabinet_dor"
                   key={data.id}
                   data-aos="fade-up"
                   data-aos-duration="1000"
                   data-aos-easing="ease-in-out"
                 >
-                  <div
-                    className="products__image"
-                    style={{
-                      background: `url(${data.image})`,
-                      backgroundRepeat: "no-repeat",
-                      backgroundSize: "contain",
-                      width: "100%",
-                      padding: "200px 0",
-                    }}
-                  ></div>
+                  <div className="products__image">
+                    <img src={data.image} alt="" />
+                  </div>
                 </div>
               );
             })}
@@ -49,21 +42,14 @@ const Cabinet = () => {
             {productsData2.map((productTwo) => {
               return (
                 <div
-                  className="col-lg-4 text-center cabinet_dor"
+                  className="col-lg-3 text-center cabinet_dor"
                   data-aos="fade-right"
                   data-aos-duration="1000"
                   data-aos-easing="ease-in-out"
                 >
-                  <div
-                    // className="products__image"
-                    style={{
-                      background: `url(${productTwo.image})`,
-                      backgroundRepeat: "no-repeat",
-                      backgroundSize: "contain",
-                      width: "100%",
-                      padding: "200px 0",
-                    }}
-                  ></div>
+                  <div className="products__image">
+                    <img src={productTwo.image} alt="" />
+                  </div>
                 </div>
               );
             })}
