@@ -74,13 +74,7 @@ const DoorDetails = () => {
                 {images.map((img) => {
                   return (
                     <>
-                      <div
-                        className={
-                          images.length === 4
-                            ? "col-lg-4 mb-4"
-                            : "col-lg-3 mb-4"
-                        }
-                      >
+                      <div className="col-lg-3 mb-4">
                         <div className="mapped-images">
                           <img src={img.image} alt="" />
                         </div>

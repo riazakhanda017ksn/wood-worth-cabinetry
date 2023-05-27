@@ -26,7 +26,7 @@ const HomeOwner = () => {
             <div className="kitchen">
               <h3>Register</h3>
               <p>
-                Start selling Fabuwood today{" "}
+                Start selling Woodworth today{" "}
                 <span>
                   <BsArrowRight />
                 </span>{" "}

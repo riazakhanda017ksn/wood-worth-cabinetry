@@ -28,7 +28,7 @@ const CabinetBanner = () => {
                 data-aos-easing="ease-in-out"
               >
                 <Link to={`${data.id}`} className="link___">
-                  <div className="container-background">
+                  <div className="container-background text-center">
                     <div
                     // style={{
                     //   background: `url(${data.image})`,

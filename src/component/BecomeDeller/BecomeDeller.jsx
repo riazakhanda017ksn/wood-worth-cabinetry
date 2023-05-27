@@ -20,7 +20,7 @@ const BecomeDealer = () => {
             >
               <h2>Become a WoodWorth Dealer</h2>
               <p>
-                The family of WoodWorth dealers is growing fast.Join the
+                The family of WoodWorth dealers is growing fast. Join the
                 thousands of dealers that offer WoodWorth Kitchens in their
                 showrooms nationwide.
               </p>

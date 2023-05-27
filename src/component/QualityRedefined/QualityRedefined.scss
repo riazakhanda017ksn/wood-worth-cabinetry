@@ -12,7 +12,12 @@
     letter-spacing: 6px;
     line-height: 32px;
 }
-
+.quality-cabinet h1 {
+    color: #CC8A3E;
+    font-weight: 700;
+    font-size: 45px;
+    letter-spacing: 0px;
+}
 .quality-caption span {
     width: 70px;
     background: #8f8f8f;
@@ -24,7 +29,7 @@
 }
 .cabinet-image{
    
-        background: url(../../images/Photo------2.jpg) no-repeat;
+        background: url(../../images/3500.jpg) no-repeat;
        
         display: flex;
         justify-content: end;
@@ -35,8 +40,11 @@
         background-repeat: no-repeat;
         background-size: cover;
         color: white;
-        background-position: right 45%
+        background-position: center center !important
     }
+
+
+
   
 
 
@@ -281,12 +289,7 @@
         text-align: center;
         padding-top: 30px;
     }
-    .quality-cabinet h1 {
-        color: #CC8A3E;
-        font-weight: 800;
-        font-size: 45px;
-        letter-spacing: 0px;
-    }
+   
     .quality-cabinet p {
         font-size: 17px;
         margin: 18px 0px;

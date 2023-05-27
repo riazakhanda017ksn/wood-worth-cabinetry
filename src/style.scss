@@ -68,6 +68,7 @@ html {
 .mapped-images h6 {
   font-size: 14px;
 }
+
 .faq span {
   font-size: 30px;
   position: relative;
@@ -557,5 +558,11 @@ input.my-file-input {
 }
 .padding-xy {
   padding: 0 10px !important
+}
+.container-background img {
+  width: 100% !important;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0px 3px 15px gray;
 }
 }

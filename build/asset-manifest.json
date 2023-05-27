@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.89984b1c.css",
-    "main.js": "/static/js/main.b02e3072.js",
+    "main.css": "/static/css/main.32aa4d51.css",
+    "main.js": "/static/js/main.ab09804f.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/WWC-Brochure-2023.pdf": "/static/media/WWC-Brochure-2023.ae651214d13bb8a07cbe.pdf",
     "static/media/11.jpg": "/static/media/1111111111111111111111111111111111.1610b293e45a584bbb00.jpg",
@@ -103,6 +103,7 @@
     "static/media/Fusion_Kona.avif": "/static/media/Fusion_Kona.04e43023bfad280207d7.avif",
     "static/media/p88.png": "/static/media/p88.5258b6e29da350678e5d.png",
     "static/media/Nexus_Frost.avif": "/static/media/Nexus_Frost.fff29d026a5bfc66021c.avif",
+    "static/media/3500.jpg": "/static/media/3500.9a3fc7bb2872a82d0435.jpg",
     "static/media/11efd97e-dd98-41af-a2c1-5ff31428e57c_dealers.avif": "/static/media/11efd97e-dd98-41af-a2c1-5ff31428e57c_dealers.097118e72e4c6a8efa5e.avif",
     "static/media/ww_logo_200x180.png": "/static/media/ww_logo_200x180.8974a9e7202f054764fe.png",
     "static/media/6d423070-f877-4568-92a4-48ff1c300707_LLW_homepage_v2.avif": "/static/media/6d423070-f877-4568-92a4-48ff1c300707_LLW_homepage_v2.59aad4ba57eb0e1d32ef.avif",
@@ -110,12 +111,12 @@
     "static/media/v1.png": "/static/media/v1.fedb20b8e2dda2bbafb7.png",
     "static/media/v3.png": "/static/media/v3.dd17bc303365ad5319a1.png",
     "index.html": "/index.html",
-    "main.89984b1c.css.map": "/static/css/main.89984b1c.css.map",
-    "main.b02e3072.js.map": "/static/js/main.b02e3072.js.map",
+    "main.32aa4d51.css.map": "/static/css/main.32aa4d51.css.map",
+    "main.ab09804f.js.map": "/static/js/main.ab09804f.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89984b1c.css",
-    "static/js/main.b02e3072.js"
+    "static/css/main.32aa4d51.css",
+    "static/js/main.ab09804f.js"
   ]
 }
