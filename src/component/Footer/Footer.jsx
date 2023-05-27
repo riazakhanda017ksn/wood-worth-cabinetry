@@ -6,6 +6,7 @@ import { RiFacebookCircleFill } from "react-icons/ri";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { BsTelegram } from "react-icons/bs";
+import docs from "../../docs/WWC-Brochure-2023.pdf";
 
 import { Link } from "react-router-dom";
 
@@ -59,7 +60,9 @@ const Footer = () => {
                   <Link to="/warranty">WARRANTY</Link>
                 </li>
                 <li>
-                  <Link to="/">DOWNLOAD 2023 CATALOGUE</Link>
+                  <a href={docs} download>
+                    DOWNLOAD 2023 CATALOGUE
+                  </a>
                 </li>
               </ul>
             </div>

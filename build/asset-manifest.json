@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f9ca90f.css",
-    "main.js": "/static/js/main.e86dc13c.js",
+    "main.css": "/static/css/main.89984b1c.css",
+    "main.js": "/static/js/main.b02e3072.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/WWC-Brochure-2023.pdf": "/static/media/WWC-Brochure-2023.ae651214d13bb8a07cbe.pdf",
     "static/media/11.jpg": "/static/media/1111111111111111111111111111111111.1610b293e45a584bbb00.jpg",
     "static/media/pexels-curtis-adams-4469409-1280x720-30fps.mp4": "/static/media/pexels-curtis-adams-4469409-1280x720-30fps.c1c214e4ec26cb6b4f42.mp4",
     "static/media/photo2.jpg": "/static/media/photo2.43b6775c33813abe7602.jpg",
@@ -60,10 +61,10 @@
     "static/media/ddd.jpg": "/static/media/ddd.1dddc6276ca4dd94a864.jpg",
     "static/media/1234567890.jpg": "/static/media/1234567890.af29e79f5722ada5ff84.jpg",
     "static/media/othersss.jpg": "/static/media/othersss.c17a7573da8296fe9627.jpg",
-    "static/media/photo.jpg": "/static/media/photo.81737f4349d77cdbd62c.jpg",
     "static/media/p11.png": "/static/media/p11.ee7b79f9434609339f37.png",
     "static/media/m12.jpg": "/static/media/m12.d882d4c12dfcd6ea8f34.jpg",
     "static/media/p333.png": "/static/media/p333.d882d4c12dfcd6ea8f34.png",
+    "static/media/Photo------2.jpg": "/static/media/Photo------2.213747a464cc2a254a56.jpg",
     "static/media/become-a-dealer.png": "/static/media/become-a-dealer.5f78f30187582d5019db.png",
     "static/media/12344444555.jpg": "/static/media/12344444555.2ce21b747f7679c7a22f.jpg",
     "static/media/Vanity-Shaker--Color-Navy-Blue.jpg": "/static/media/Vanity-Shaker--Color-Navy-Blue.2e58bcf03990aac2fcf6.jpg",
@@ -109,12 +110,12 @@
     "static/media/v1.png": "/static/media/v1.fedb20b8e2dda2bbafb7.png",
     "static/media/v3.png": "/static/media/v3.dd17bc303365ad5319a1.png",
     "index.html": "/index.html",
-    "main.5f9ca90f.css.map": "/static/css/main.5f9ca90f.css.map",
-    "main.e86dc13c.js.map": "/static/js/main.e86dc13c.js.map",
+    "main.89984b1c.css.map": "/static/css/main.89984b1c.css.map",
+    "main.b02e3072.js.map": "/static/js/main.b02e3072.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f9ca90f.css",
-    "static/js/main.e86dc13c.js"
+    "static/css/main.89984b1c.css",
+    "static/js/main.b02e3072.js"
   ]
 }

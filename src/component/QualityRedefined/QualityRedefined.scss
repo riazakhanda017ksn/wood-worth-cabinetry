@@ -24,7 +24,7 @@
 }
 .cabinet-image{
    
-        background: url(../../images/photo.jpg) no-repeat;
+        background: url(../../images/Photo------2.jpg) no-repeat;
        
         display: flex;
         justify-content: end;
@@ -35,8 +35,9 @@
         background-repeat: no-repeat;
         background-size: cover;
         color: white;
+        background-position: right 45%
     }
-        
+  
 
 
 .cabinet-text {
@@ -283,12 +284,12 @@
     .quality-cabinet h1 {
         color: #CC8A3E;
         font-weight: 800;
-        font-size: 56px;
+        font-size: 45px;
         letter-spacing: 0px;
     }
     .quality-cabinet p {
         font-size: 17px;
-        margin: 14px 0px;
+        margin: 18px 0px;
     }
     .quality-cabinet {
         text-align: center;

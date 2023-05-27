@@ -10,7 +10,10 @@ const Visualize = () => {
         Get <span>inspired</span> and <span>visualize</span> your ideas.
       </h1>
       <div className="visualize-btn-group">
-        <Link to="/about">
+        <a
+          href="https://idealspaces-hspace-prod.2020-
+platform.com/index.html#inspiration/category/KITCHEN/presetsStyles"
+        >
           <button>
             {" "}
             visualize{" "}
@@ -19,7 +22,7 @@ const Visualize = () => {
               <BsArrowRight />{" "}
             </span>
           </button>
-        </Link>
+        </a>
 
         {/* <Link to="/cabinets">
           <button>

@@ -9,13 +9,12 @@ import Data from "./Data";
 const DoorDetails = () => {
   const { id } = useParams();
   const product = all__products.find((product) => product.id === id);
-  const { name, details, images, colors, image, vector, specification } =
-    product;
+  const { name, details, images, image, vector, specification } = product;
 
   return (
     <div className="door-details">
       <Navbar />
-      <div className="container pt-5 mt-5 mb-3">
+      <div className="container pt-5 mb-3">
         <div className="row">
           <div className="col-lg-7">
             <div className="details">
@@ -26,8 +25,8 @@ const DoorDetails = () => {
               <p>{details}</p>
             </div>
           </div>
-          <div className="col-lg-1"></div>
-          <div className="col-lg-4 text-center">
+          <div className="col-lg-2"></div>
+          <div className="col-lg-3 text-center">
             <div className="need-product-bg">
               <div className="details-image">
                 <img src={image} alt="" />
@@ -45,7 +44,7 @@ const DoorDetails = () => {
           data-aos-duration="1200"
           data-aos-easing="ease-in-out"
         >
-          <div className="col-lg-6">
+          <div className="col-lg-7">
             <div className="description">
               <h3>SPECIFICATION:</h3>
               {/* my toggle app */}
@@ -61,7 +60,7 @@ const DoorDetails = () => {
             </div>
           </div>
           <div className="col-lg-1"></div>
-          <div className="col-lg-5">
+          <div className="col-lg-4">
             <div className="more-img">
               <h3 className="mb-4" style={{ fontWeight: "500" }}>
                 COLORS:

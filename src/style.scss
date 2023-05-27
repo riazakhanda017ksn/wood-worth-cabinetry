@@ -32,8 +32,8 @@ html {
   letter-spacing: 0px !important;
 }
 .description h3 {
-  font-size: 26px !important;
-  font-weight: 500 !important;
+  font-size: 29px !important;
+  font-weight: 700 !important;
   margin-bottom: 49px !important;
   letter-spacing: 4px !important;
 }
@@ -50,8 +50,8 @@ html {
   letter-spacing: 2px;
 }
 .faqs-details li {
-  font-size: 14px;
-  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 28px;
 }
 .faqs {
   border: 1px solid black;
@@ -61,14 +61,15 @@ html {
   padding: 7px;
 }
 .faq h4 {
-  font-size: 16px;
+  font-size: 19px;
   text-transform: uppercase;
+  font-weight: 600;
 }
 .mapped-images h6 {
   font-size: 14px;
 }
 .faq span {
-  font-size: 24px;
+  font-size: 30px;
   position: relative;
   bottom: 6px;
 }
@@ -224,7 +225,7 @@ input.my-file-input {
   grid-row-gap: 0px;
 }
 .cabinet_dor {
-  padding: 10px 70px !important;
+  padding: 10px 10px !important;
 }
 .dealer {
   display: grid;
@@ -240,6 +241,9 @@ input.my-file-input {
   height: 80vh !important;
   flex-direction: column;
   padding: 20px !important;
+}
+.visualize {
+  height: 70vh !important;
 }
 .DreamKitchen button {
   padding: 14px 55px !important;

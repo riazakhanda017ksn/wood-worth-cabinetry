@@ -24,7 +24,7 @@ const HomeOwner = () => {
         <Link to="/became-a-dealer">
           <div className="col-two">
             <div className="kitchen">
-              <h3>Kitchen Dealers</h3>
+              <h3>Register</h3>
               <p>
                 Start selling Fabuwood today{" "}
                 <span>

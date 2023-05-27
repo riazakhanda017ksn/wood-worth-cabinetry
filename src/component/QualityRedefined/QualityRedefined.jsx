@@ -4,6 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 import img from "../../images/loves.jpg";
 import img2 from "../../images/othersss.jpg";
 import img3 from "../../images/loginnnnn.jpg";
+import imgs from "../../images/Photo------2.jpg";
 import { Link } from "react-router-dom";
 
 const QualityRedefined = () => {
@@ -49,7 +50,7 @@ const QualityRedefined = () => {
         </div> */}
         {/* rows */}
         <div className="row margin-top">
-          <div className="col-lg-5">
+          <div className="col-lg-6">
             <div
               className="cabinet-image"
               data-aos="fade-right"

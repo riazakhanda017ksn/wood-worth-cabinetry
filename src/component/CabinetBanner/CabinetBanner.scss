@@ -107,11 +107,11 @@ a.link___{
 }
 
 .more-img h3 {
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 29px;
+    font-weight: 700 !important;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
-
 
 .description button {
     background: none;
@@ -149,17 +149,17 @@ a.link___{
 }
 
 .padding-xy {
-    padding: 0 100px;
+    padding: 0 130px;
 }
-
 .container-background img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    box-shadow: 0px 3px 15px gray;
 }
 
 .container-background {
-    padding: 32px 36px;
+    padding: 43px 48px;
     background: #DCDCDC;
     margin-top: 40px;
 }
@@ -170,4 +170,19 @@ a.link___{
     font-weight: 400;
     position: relative;
     top: 6px;
+}
+
+.container-background h6 {
+    margin: 0;
+    font-size: 18px !important ;
+    font-weight: 600;
+    position: relative;
+    top: 6px;
+}
+
+.container-background {
+    padding: 38px 36px !important;
+    background: #DCDCDC;
+    margin-top: 40px;
+    padding-bottom: 35px !important;
 }

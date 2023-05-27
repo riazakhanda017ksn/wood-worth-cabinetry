@@ -6,15 +6,15 @@
     grid-row-gap: 0px;
     }
 
-    .half-column{
+    .half-column {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 65vh;
+        height: auto;
         background: #C8893E;
         color: white;
-        padding: 163px;
+        padding: 0 50px !important;
         width: 100%;
     }
 

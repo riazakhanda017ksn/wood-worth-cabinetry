@@ -78,7 +78,7 @@ const Slider = () => {
         <div className="carousel-inner">
           <div className="carousel-item active slide-one">
             <div className="container flex-box">
-              <div className="content">
+              <div className="content animate__animated animate__fadeInLeft ">
                 <h2>MAKE WOODWORTH</h2>
                 <h3>PART OF THE FAMILY</h3>
                 <br />

@@ -18,11 +18,11 @@ const BecomeDealer = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              <h2>Become a Wood Worth Cabinetry Dealer</h2>
+              <h2>Become a WoodWorth Dealer</h2>
               <p>
-                The family of Wood Worth Cabinetry dealers is growing fast. Join
-                the thousands of dealers that offer FWood Worth Cabinetry
-                Kitchens in their showrooms nationwide.
+                The family of WoodWorth dealers is growing fast.Join the
+                thousands of dealers that offer WoodWorth Kitchens in their
+                showrooms nationwide.
               </p>
               <div className="sign-up-btn">
                 <Link to="/became-a-dealer">

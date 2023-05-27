@@ -61,12 +61,12 @@
     position: relative;
     top: 60px;
 }
+
 .details-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: scale-down;
 }
-
 .video-section {
     align-items: center;
     background: #000;
@@ -175,8 +175,16 @@
 }
 
 .details-image h5 {
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 600;
     position: relative;
-    top: 26px;
+    top: 20px;
+    padding-bottom: 0px;
+}
+
+.need-product-bg {
+    background: #DCDCDC;
+    padding: 38px;
+    position: relative;
+    top: 60px;
 }
